@@ -8,13 +8,6 @@ public class PlayerAttack : PlayerAbstract
     [SerializeField] protected float attackCurrent = 0f;
     [SerializeField] protected Transform bulletPrefab;
 
-    //protected Animator anim;
-
-    /*private void Awake()
-    {
-        anim = GetComponentInParent<Animator>();
-    }*/
-
     private void FixedUpdate()
     {
         Attack();
@@ -29,7 +22,8 @@ public class PlayerAttack : PlayerAbstract
         diff.Normalize();
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
 
-        Instantiate(bulletPrefab, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        Transform newBullet = BulletSpawner.Instance.Spawn(bulletPrefab, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        newBullet.gameObject.SetActive(true);
         PlayerCtrl.Animator.SetTrigger("attack");
     }
 }
