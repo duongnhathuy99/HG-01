@@ -2,19 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : PlayerAbstract
 {
     [SerializeField] protected float moveSpeed = 1f;
-    protected Rigidbody2D rigit;
-    protected Animator anim;
     protected bool isFacingRight = true;
     protected bool isMove = false;
-    Vector2 movementInputDirection;
-    private void Awake()
-    {
-        rigit = GetComponentInParent<Rigidbody2D>();
-        anim = GetComponentInParent<Animator>();
-    }
+    Vector2 movementDirection;
     private void Update()
     {
         CheckInput();
@@ -28,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private void Movement()
     {
         if (!isMove) return;
-        rigit.MovePosition(rigit.position + movementInputDirection * moveSpeed * Time.fixedDeltaTime);
+        PlayerCtrl.Rigidbody2D.MovePosition(PlayerCtrl.Rigidbody2D.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
     }
     private void Flip()
     {
@@ -37,27 +30,27 @@ public class PlayerMovement : MonoBehaviour
     }
     private void CheckMovementDirection()
     {
-        if (isFacingRight && movementInputDirection.x < 0)
+        if (isFacingRight && movementDirection.x < 0)
         {
             Flip();
         }
-        else if (!isFacingRight && movementInputDirection.x > 0)
+        else if (!isFacingRight && movementDirection.x > 0)
         {
             Flip();
         }
     }
     private void CheckInput()
     {
-        movementInputDirection.x = Input.GetAxis("Horizontal");
-        movementInputDirection.y = Input.GetAxis("Vertical");
+        movementDirection.x = Input.GetAxis("Horizontal");
+        movementDirection.y = Input.GetAxis("Vertical");
 
-        if (movementInputDirection.x == 0 && movementInputDirection.y == 0) isMove = false;
+        if (movementDirection.x == 0 && movementDirection.y == 0) isMove = false;
         else isMove = true;
         
     }
 
     private void UpdateAnimation()
     {
-        anim.SetBool("isMove", isMove);
+        PlayerCtrl.Animator.SetBool("isMove", isMove);
     }
 }
