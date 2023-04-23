@@ -22,7 +22,9 @@ public class PlayerAttack : PlayerAbstract
         if (attackCurrent < attackDelay) return;
         attackCurrent = 0;
 
-        Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.position;
+        //Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.parent.position;
+        if (EnemySpawner.Instance.Objects.Count <=0 ) return;
+        Vector3 diff = EnemySpawner.Instance.Objects[0].position - transform.parent.position;
         diff.Normalize();
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
 

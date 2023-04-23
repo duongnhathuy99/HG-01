@@ -27,13 +27,13 @@ public class SpawnEnemyAtPoint : MonoBehaviour
         Transform ramPoint = spawnPoins.GetRamdom();
         Vector3 pos = ramPoint.position;
         Quaternion rot = transform.rotation;
-        //Transform prefab = spawnPoins.RandomPrefab();
-        Transform enemyRamdom = EnemySpawner.Instance.Spawn(EnemySpawner.Enemy_0, pos, rot);
+        Transform prefab = EnemySpawner.Instance.RandomPrefab();
+        Transform enemyRamdom = EnemySpawner.Instance.Spawn(prefab, pos, rot);
         enemyRamdom.gameObject.SetActive(true);
     }
     protected virtual bool RamdomReachLimit()
     {
-        int numerEnemyCurrent = EnemySpawner.Instance.SpawnedCount;
+        int numerEnemyCurrent = EnemySpawner.Instance.Objects.Count;
         return numerEnemyCurrent >= enemyLimit;
     }
 }

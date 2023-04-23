@@ -6,12 +6,14 @@ public class Spawner : MonoBehaviour
 {
     [Header("Spawner")]
     [SerializeField] protected Transform holder;
-
+/*
     [SerializeField] protected int spawnedCount = 0;
-    public int SpawnedCount => spawnedCount;
+    public int SpawnedCount => spawnedCount;*/
 
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjects;
+    [SerializeField] protected List<Transform> objects;
+    public List<Transform> Objects => objects;
     protected virtual void Awake()
     {
         LoadPrefabs();
@@ -50,7 +52,8 @@ public class Spawner : MonoBehaviour
     {
         Transform newPrefab = GetObjectFromPool(prefab);
         newPrefab.SetPositionAndRotation(spawnPos, rotation);
-        spawnedCount++;
+        //spawnedCount++;
+        objects.Add(newPrefab);
         return newPrefab;
     }
     public virtual Transform GetObjectFromPool(Transform prefab)
@@ -70,9 +73,10 @@ public class Spawner : MonoBehaviour
     }
     public virtual void Despawn(Transform obj)
     {
+        objects.Remove(obj);
         poolObjects.Add(obj);
         obj.gameObject.SetActive(false);
-        spawnedCount--;
+        //spawnedCount--;
     }
     public virtual Transform GetPrefabByName(string prefabName)
     {
@@ -82,11 +86,11 @@ public class Spawner : MonoBehaviour
         }
         return null;
     }
-    /*public virtual Transform RandomPrefab()
+    public virtual Transform RandomPrefab()
     {
         int rand = Random.Range(0, prefabs.Count);
         return prefabs[rand];
-    }*/
+    }
     public virtual void Hold(Transform obj)
     {
         obj.parent = this.holder;
