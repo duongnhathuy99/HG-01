@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMove : MonoBehaviour
+public class BulletMove : BulletAbstract
 {
-     [SerializeField] protected int moveSpeed = 5;
+     [SerializeField] protected float moveSpeed;
      [SerializeField] protected Vector3 directionBullet = Vector3.right;
-
-     private void FixedUpdate()
+    private void Start()
+    {
+        moveSpeed = BulletCtrl.BulletSO.bulletSpeed;
+    }
+    private void FixedUpdate()
      {
          Moving();
      }

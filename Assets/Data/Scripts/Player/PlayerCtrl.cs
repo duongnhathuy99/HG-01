@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour
 {
+    [SerializeField] protected PlayerSO playerSO;
+    public PlayerSO PlayerSO => playerSO;
+
     public PlayerAttack PlayerAttack { get; private set; }
     public PlayerMovement PlayerMovement { get; private set; }
     public SpawnPoins enemySpawnPoins { get; private set; }

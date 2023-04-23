@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] protected int damage = 50;
+    protected int damage ;
+    public BulletCtrl bulletCtrl { get; private set; }
+    private void Awake()
+    {
+        bulletCtrl = transform.GetComponent<BulletCtrl>();
+    }
+    private void Start()
+    {
+        damage = bulletCtrl.BulletSO.damage;
+    }
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log("va cham " + other.gameObject.name);

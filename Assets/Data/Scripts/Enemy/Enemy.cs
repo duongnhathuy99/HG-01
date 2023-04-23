@@ -5,18 +5,17 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IHealth
 {
     [SerializeField] protected int health;
-    [SerializeField] protected int healthMax = 100;
-    private void Start()
+    EnemySO enemySO;
+    private void Awake()
     {
-        health = healthMax;
+        enemySO = transform.GetComponent<EnemyCtrl>().EnemySO;
     }
     private void OnEnable()
     {
-        health = healthMax;
+        health = enemySO.heathMax;
     }
     public void TakeDamage(int amount)
     {
-        Debug.Log("take dame");
         health -= amount;
         if (health <= 0) EnemySpawner.Instance.Despawn(transform);
     }

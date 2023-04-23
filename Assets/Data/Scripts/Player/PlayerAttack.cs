@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class PlayerAttack : PlayerAbstract
 {
-    [SerializeField] protected float attackDelay = 2f;
-    [SerializeField] protected float attackCurrent = 0f;
+    private float attackDelay;
+    private float attackCurrent = 0f;
     [SerializeField] protected Transform bulletPrefab;
 
     private void FixedUpdate()
     {
         Attack();
+    }
+    private void Start()
+    {
+        attackDelay = PlayerCtrl.PlayerSO.attackSpeed;
     }
     protected void Attack()
     {

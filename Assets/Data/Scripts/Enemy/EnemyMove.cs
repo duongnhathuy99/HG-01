@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour
+public class EnemyMove : EnemyAbstract
 {
     [SerializeField] protected Transform player;
-    [SerializeField] protected float speed = 0.01f;
-    [SerializeField] protected bool isFacingRight = true;
-    private void Awake()
+    [SerializeField] protected float speed;
+    protected bool isFacingRight = true;
+    protected override void Awake()
     {
+        base.Awake();
         player = GameObject.FindWithTag("Player").transform;
     }
     private void OnEnable()
     {
+        speed = EnemyCtrl.EnemySO.moveSpeed;
         isFacingRight = true;
         transform.parent.Rotate(0.0f, 0.0f, 0.0f);
     }

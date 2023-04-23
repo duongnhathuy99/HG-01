@@ -461,8 +461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fe94520316b30d4f871d13b6644e8a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDelay: 2
-  attackCurrent: 0
   bulletPrefab: {fileID: 1407597976}
 --- !u!1 &217281594
 GameObject:
@@ -510,7 +508,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   speed: 0.01
-  isFacingRight: 1
 --- !u!1 &260326125
 GameObject:
   m_ObjectHideFlags: 0
@@ -5242,6 +5239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45136670d17d925409c962c4d6874d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletSO: {fileID: 11400000, guid: 855774d852d419e4c8e17395e687dfa7, type: 2}
 --- !u!65 &1407597980
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5267,7 +5265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f384ff463b7730b4a9c79359065eb066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 50
 --- !u!54 &1407597982
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9451,6 +9448,7 @@ GameObject:
   - component: {fileID: 1595129806}
   - component: {fileID: 1595129808}
   - component: {fileID: 1595129809}
+  - component: {fileID: 1595129810}
   m_Layer: 0
   m_Name: Enemy 0
   m_TagString: Untagged
@@ -9572,7 +9570,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  healthMax: 100
+--- !u!114 &1595129810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595129804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745c32b9c175b8743a1253bb5e8553e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySO: {fileID: 11400000, guid: facceb1f85f111044a58e35004b60591, type: 2}
 --- !u!1 &1605454817
 GameObject:
   m_ObjectHideFlags: 0
@@ -18113,6 +18123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00577d876b53c1f44bab5390be89a810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSO: {fileID: 11400000, guid: 8cef37cbacdd1e54282115d601b8f131, type: 2}
 --- !u!65 &2147420762
 BoxCollider:
   m_ObjectHideFlags: 0
