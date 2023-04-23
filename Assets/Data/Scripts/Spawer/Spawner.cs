@@ -15,15 +15,9 @@ public class Spawner : MonoBehaviour
     protected virtual void Awake()
     {
         LoadPrefabs();
-        LoadHolder();
+        holder = transform.Find("Holder");
     }
 
-    protected virtual void LoadHolder()
-    {
-        if (holder != null) return;
-        holder = transform.Find("Holder");
-        Debug.Log(transform.name + ":Load holder ", gameObject);
-    }
     protected virtual void LoadPrefabs()
     {
         if (prefabs.Count > 0) return;
@@ -33,7 +27,6 @@ public class Spawner : MonoBehaviour
             this.prefabs.Add(prefab);
         }
         HidePrefabs();
-        Debug.Log(transform.name + ": LoadPrefabs", gameObject);
     }
     protected virtual void HidePrefabs()
     {

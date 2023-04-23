@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] protected int moveSpeed = 5;
-    [SerializeField] protected Vector3 directionBullet = Vector3.right;
-    private void Start()
+    [SerializeField] protected int damage = 50;
+    private void OnTriggerEnter(Collider other)
     {
-        /*directionBullet = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        directionBullet.z = 0;
-        directionBullet.Normalize();*/
-    }
-    private void FixedUpdate()
-    {
-        transform.Translate(directionBullet * moveSpeed * Time.fixedDeltaTime);
+        //Debug.Log("va cham " + other.gameObject.name);
+        IHealth health = other.GetComponent<IHealth>();
+        if (health == null) return;
+        
+        health.TakeDamage(damage);
+        BulletSpawner.Instance.Despawn(transform);
     }
 }

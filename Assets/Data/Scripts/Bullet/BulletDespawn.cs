@@ -10,14 +10,9 @@ public class BulletDespawn : MonoBehaviour
 
     private void Awake()
     {
-        LoadCamera();
-    }
-    protected virtual void LoadCamera()
-    {
-        if (mainCam != null) return;
         mainCam = Transform.FindObjectOfType<Camera>().transform;
-        Debug.Log(transform.parent.name + "LoadCamera:" + gameObject);
     }
+    
     protected virtual void FixedUpdate()
     {
         Despawning();

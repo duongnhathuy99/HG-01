@@ -17,7 +17,6 @@ public class SpawnPoins : MonoBehaviour
         {
             this.points.Add(point);
         }
-        Debug.Log(transform.name + ":Load Poins", gameObject);
     }
 
     public virtual Transform GetRamdom()

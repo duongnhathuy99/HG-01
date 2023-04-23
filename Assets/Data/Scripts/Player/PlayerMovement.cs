@@ -7,7 +7,7 @@ public class PlayerMovement : PlayerAbstract
     [SerializeField] protected float moveSpeed = 1f;
     protected bool isFacingRight = true;
     protected bool isMove = false;
-    Vector2 movementDirection;
+    Vector3 movementDirection;
     private void Update()
     {
         CheckInput();
@@ -21,7 +21,7 @@ public class PlayerMovement : PlayerAbstract
     private void Movement()
     {
         if (!isMove) return;
-        PlayerCtrl.Rigidbody2D.MovePosition(PlayerCtrl.Rigidbody2D.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
+        PlayerCtrl.Rigidbody.MovePosition(PlayerCtrl.Rigidbody.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
     }
     private void Flip()
     {
@@ -43,7 +43,7 @@ public class PlayerMovement : PlayerAbstract
     {
         movementDirection.x = Input.GetAxis("Horizontal");
         movementDirection.y = Input.GetAxis("Vertical");
-
+        movementDirection.z = 0;
         if (movementDirection.x == 0 && movementDirection.y == 0) isMove = false;
         else isMove = true;
         
