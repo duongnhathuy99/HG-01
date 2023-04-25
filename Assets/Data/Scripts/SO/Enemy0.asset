@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heathMax: 100
   moveSpeed: 0.01
+  dropList:
+  - itemType: 1
+    dropRate: 50
