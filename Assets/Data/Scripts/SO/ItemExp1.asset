@@ -9,12 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc444ad3c9a135c48b3956a61f58512f, type: 3}
-  m_Name: Enemy1
+  m_Script: {fileID: 11500000, guid: cf5363220f50d98498b7ba4d33eec8c8, type: 3}
+  m_Name: ItemExp1
   m_EditorClassIdentifier: 
-  damage: 1
-  heathMax: 50
-  moveSpeed: 0.008
-  dropList:
-  - itemType: 2
-    dropRate: 50
+  itemType: 1
+  exp: 20

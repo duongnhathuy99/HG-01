@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070585410ceca5043b9da2166949ae72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemHealthSO: {fileID: 0}
+  itemHealthSO: {fileID: 11400000, guid: b5c0c4b78435c834da065a469ae4b83e, type: 2}
 --- !u!1 &151342830
 GameObject:
   m_ObjectHideFlags: 0
@@ -5459,7 +5459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97d44fb05e934844aa088f1552906d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemExpSO: {fileID: 0}
+  itemExpSO: {fileID: 11400000, guid: 2d05a90d29867c74f8137c40d5ddae0b, type: 2}
 --- !u!1 &778605480
 GameObject:
   m_ObjectHideFlags: 0
@@ -5638,7 +5638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97d44fb05e934844aa088f1552906d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemExpSO: {fileID: 0}
+  itemExpSO: {fileID: 11400000, guid: 7f9e0f474b0a0a243a394d45afd97eb5, type: 2}
 --- !u!65 &934942126
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6088,6 +6088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  damage: 0
 --- !u!65 &1334385547
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6268,6 +6269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  damage: 0
 --- !u!65 &1368736351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10715,6 +10717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
+  damage: 0
 --- !u!114 &1595129810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10915,7 +10918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e97d44fb05e934844aa088f1552906d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemExpSO: {fileID: 0}
+  itemExpSO: {fileID: 11400000, guid: e95ea2133d936b149bfeeff743517ff6, type: 2}
 --- !u!65 &1811646571
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19413,12 +19416,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2147420758}
+  - component: {fileID: 2147420764}
+  - component: {fileID: 2147420761}
   - component: {fileID: 2147420757}
   - component: {fileID: 2147420760}
-  - component: {fileID: 2147420761}
   - component: {fileID: 2147420763}
   - component: {fileID: 2147420762}
-  - component: {fileID: 2147420764}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -19570,3 +19573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a6104824b0431408c27f520d69dd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  exp: 0
+  lever: 0

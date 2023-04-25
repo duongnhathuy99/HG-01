@@ -16,7 +16,8 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("va cham " + other.gameObject.name);
+        Player player = other.GetComponent<Player>();
+        if (player != null) return;
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
         

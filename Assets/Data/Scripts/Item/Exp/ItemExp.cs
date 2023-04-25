@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class ItemExp : MonoBehaviour, IItem
 {
-    public void PickItem()
+    ItemExpSO itemExpSO;
+    private void Awake()
     {
-        throw new System.NotImplementedException();
+        itemExpSO = transform.GetComponent<ItemExpCtrl>().ItemExpSO;
+    }
+    public void PickItem(Player player)
+    {
+        player.SetExp(itemExpSO.exp);
     }
 
 }

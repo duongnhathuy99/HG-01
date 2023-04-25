@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour, IHealth
 {
     [SerializeField] protected int health;
+    [SerializeField] protected int damage;
     EnemySO enemySO;
     private void Awake()
     {
@@ -13,6 +14,16 @@ public class Enemy : MonoBehaviour, IHealth
     private void OnEnable()
     {
         health = enemySO.heathMax;
+        damage = enemySO.damage;
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        Enemy enemy = other.GetComponent<Enemy>();
+        if (enemy != null) return;
+        IHealth health = other.GetComponent<IHealth>();
+        if (health == null) return;
+
+        health.TakeDamage(damage);
     }
     public void TakeDamage(int amount)
     {
@@ -59,4 +70,5 @@ public class Enemy : MonoBehaviour, IHealth
         }
         return droppedItems;
     }
+
 }

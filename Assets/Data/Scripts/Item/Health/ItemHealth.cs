@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class ItemHealth : MonoBehaviour, IItem
 {
-    public void PickItem()
+    ItemHealthSO itemHealthSO;
+    private void Awake()
     {
-        throw new System.NotImplementedException();
+        itemHealthSO = transform.GetComponent<ItemHealthCtrl>().ItemHealthSO;
+    }
+    public void PickItem(Player player)
+    {
+        player.SetHealth(itemHealthSO.health); 
     }
 
 }

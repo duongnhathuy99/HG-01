@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IItem
+public interface IDamage
 {
-    void PickItem(Player player);
+    int Damage();
 }
