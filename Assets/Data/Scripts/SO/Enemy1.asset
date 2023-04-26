@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   heathMax: 50
-  moveSpeed: 2
+  moveSpeed: 1.5
   dropList:
   - itemType: 2
     dropRate: 50

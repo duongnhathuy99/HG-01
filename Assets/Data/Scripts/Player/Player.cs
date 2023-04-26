@@ -5,8 +5,11 @@ using UnityEngine;
 public class Player : MonoBehaviour, IHealth
 {
     [SerializeField] protected int health;
+    public int Health => health;
     [SerializeField] protected int exp = 0;
+    public int Exp => exp;
     [SerializeField] protected int lever = 0;
+    public int Level => lever;
     PlayerSO playerSO;
 
     public void TakeDamage(int amount)

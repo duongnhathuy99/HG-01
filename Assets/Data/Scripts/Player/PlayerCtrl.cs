@@ -6,7 +6,7 @@ public class PlayerCtrl : MonoBehaviour
 {
     [SerializeField] protected PlayerSO playerSO;
     public PlayerSO PlayerSO => playerSO;
-
+    public Player Player { get; private set; }
     public PlayerAttack PlayerAttack { get; private set; }
     public PlayerMovement PlayerMovement { get; private set; }
     public SpawnPoins enemySpawnPoins { get; private set; }
@@ -18,6 +18,7 @@ public class PlayerCtrl : MonoBehaviour
         PlayerAttack = GetComponentInChildren<PlayerAttack>();
         PlayerMovement = GetComponentInChildren<PlayerMovement>();
         enemySpawnPoins = GetComponentInChildren<SpawnPoins>();
+        Player = GetComponent<Player>();
         Animator = GetComponent<Animator>();
         Rigidbody = GetComponent<Rigidbody>();
         BoxCollider = GetComponent<BoxCollider>();
