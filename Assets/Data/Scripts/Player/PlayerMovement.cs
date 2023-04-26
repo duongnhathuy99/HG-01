@@ -6,19 +6,20 @@ public class PlayerMovement : PlayerAbstract
 {
     [SerializeField] protected float moveSpeed = 1f;
     protected bool isFacingRight = true;
-    protected bool isMove = false;
-    Vector3 movementDirection;
+    [SerializeField] protected bool isMove = false;
+    [SerializeField] protected Vector3 movementDirection;
     private void Update()
     {
-        CheckInput();
+        MoveDirection();
+        CheckMoving();
         CheckMovementDirection();
         UpdateAnimation();
     }
     private void FixedUpdate()
     {
-        Movement();
+        Moving();
     }
-    private void Movement()
+    private void Moving()
     {
         if (!isMove) return;
         PlayerCtrl.Rigidbody.MovePosition(PlayerCtrl.Rigidbody.position + movementDirection * moveSpeed * Time.fixedDeltaTime);
@@ -38,19 +39,23 @@ public class PlayerMovement : PlayerAbstract
         {
             Flip();
         }
+
     }
-    private void CheckInput()
+    private void CheckMoving()
     {
-        movementDirection.x = Input.GetAxis("Horizontal");
-        movementDirection.y = Input.GetAxis("Vertical");
-        movementDirection.z = 0;
+        
         if (movementDirection.x == 0 && movementDirection.y == 0) isMove = false;
         else isMove = true;
         
     }
-
     private void UpdateAnimation()
     {
         PlayerCtrl.Animator.SetBool("isMove", isMove);
+    }
+    private void MoveDirection()
+    {
+        movementDirection.x = MovementJoystick.Instance.joystickvec.x + Input.GetAxis("Horizontal");
+        movementDirection.y = MovementJoystick.Instance.joystickvec.y + Input.GetAxis("Vertical");
+        movementDirection.z = 0;
     }
 }
