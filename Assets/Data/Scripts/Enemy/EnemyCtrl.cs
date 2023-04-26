@@ -6,4 +6,9 @@ public class EnemyCtrl : MonoBehaviour
 {
     [SerializeField] protected EnemySO enemySO;
     public EnemySO EnemySO => enemySO;
+    public Rigidbody Rigidbody { get; private set; }
+    private void Awake()
+    {
+        Rigidbody = GetComponent<Rigidbody>();
+    }
 }

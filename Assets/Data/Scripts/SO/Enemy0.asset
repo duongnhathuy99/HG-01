@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc444ad3c9a135c48b3956a61f58512f, type: 3}
   m_Name: Enemy0
   m_EditorClassIdentifier: 
+  damage: 1
   heathMax: 100
-  moveSpeed: 0.01
+  moveSpeed: 3
   dropList:
   - itemType: 1
     dropRate: 50

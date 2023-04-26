@@ -29,9 +29,9 @@ public class EnemyMove : EnemyAbstract
     protected virtual void Moving()
     {
         Vector3 targetPosition = player.position;
+        Vector3 directionEnemy = (targetPosition - transform.parent.position).normalized;
 
-        Vector3 newPos = Vector3.Lerp(transform.parent.position, targetPosition, speed);
-        transform.parent.position = newPos;
+        EnemyCtrl.Rigidbody.MovePosition(EnemyCtrl.Rigidbody.position + directionEnemy * speed * Time.fixedDeltaTime);
     }
     private void Flip()
     {
