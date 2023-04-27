@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : PlayerAbstract
 {
-    [SerializeField] protected float moveSpeed = 1f;
+    [SerializeField] protected float moveSpeed;
     protected bool isFacingRight = true;
     [SerializeField] protected bool isMove = false;
     [SerializeField] protected Vector3 movementDirection;
+    private void Start()
+    {
+        moveSpeed = PlayerCtrl.PlayerSO.moveSpeed;
+    }
     private void Update()
     {
         MoveDirection();
