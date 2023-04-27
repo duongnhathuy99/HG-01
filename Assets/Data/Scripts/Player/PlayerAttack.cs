@@ -6,7 +6,7 @@ public class PlayerAttack : PlayerAbstract
 {
     private float attackDelay;
     private float attackCurrent = 0f;
-    [SerializeField] protected Transform bulletPrefab;
+    [SerializeField] protected Transform fireballPrefab;
 
     private void FixedUpdate()
     {
@@ -28,8 +28,8 @@ public class PlayerAttack : PlayerAbstract
         diff.Normalize();
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
 
-        Transform newBullet = BulletSpawner.Instance.Spawn(bulletPrefab, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
-        newBullet.gameObject.SetActive(true);
+        Transform newFireball = FireballSpawner.Instance.Spawn(fireballPrefab, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        newFireball.gameObject.SetActive(true);
         PlayerCtrl.Animator.SetTrigger("attack");
     }
 }

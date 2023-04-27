@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletDespawn : MonoBehaviour
+public class FireballDespawn : MonoBehaviour
 {
     [SerializeField] protected float disLimit = 40f;
     [SerializeField] protected float distance = 0f;
@@ -32,7 +32,7 @@ public class BulletDespawn : MonoBehaviour
     }
     public virtual void DespawnObject()
     {
-        BulletSpawner.Instance.Despawn(transform.parent);
+        FireballSpawner.Instance.Despawn(transform.parent);
     }
 
 }

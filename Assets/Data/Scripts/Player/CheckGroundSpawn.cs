@@ -10,6 +10,7 @@ public class CheckGroundSpawn : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        //Debug.Log("va cham " + other.gameObject.name);
         GroundCollider groundCollider = other.GetComponent<GroundCollider>();
         if (groundCollider == null) return;
         groundCollider.SpawnGround();

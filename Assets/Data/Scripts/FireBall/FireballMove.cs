@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMove : BulletAbstract
+public class FireballMove : FireballAbstract
 {
      [SerializeField] protected float moveSpeed;
-     [SerializeField] protected Vector3 directionBullet = Vector3.right;
+     [SerializeField] protected Vector3 directionFireball = Vector3.right;
     private void Start()
     {
-        moveSpeed = BulletCtrl.BulletSO.bulletSpeed;
+        moveSpeed = FireballCtrl.FireballSO.fireballSpeed;
     }
     private void FixedUpdate()
      {
@@ -16,7 +16,7 @@ public class BulletMove : BulletAbstract
      }
      private void Moving()
      {
-         transform.parent.Translate(directionBullet * moveSpeed * Time.fixedDeltaTime);
+         transform.parent.Translate(directionFireball * moveSpeed * Time.fixedDeltaTime);
      }
 
 }

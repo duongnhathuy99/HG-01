@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Fireball : MonoBehaviour
 {
     protected int damage ;
-    public BulletCtrl bulletCtrl { get; private set; }
+    protected int level;
+    public FireballCtrl fireballCtrl { get; private set; }
     private void Awake()
     {
-        bulletCtrl = transform.GetComponent<BulletCtrl>();
+        fireballCtrl = transform.GetComponent<FireballCtrl>();
+        level = GameObject.FindWithTag("Player").GetComponentInChildren<PlayerCtrl>().Player.Level;
     }
     private void Start()
     {
-        damage = bulletCtrl.BulletSO.damage;
+        damage = fireballCtrl.FireballSO.listDamageLevel[level];
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -22,6 +24,6 @@ public class Bullet : MonoBehaviour
         if (health == null) return;
         
         health.TakeDamage(damage);
-        BulletSpawner.Instance.Despawn(transform);
+        FireballSpawner.Instance.Despawn(transform);
     }
 }

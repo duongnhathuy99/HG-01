@@ -12,17 +12,16 @@ public class Player : MonoBehaviour, IHealth
     public int Level => lever;
     PlayerSO playerSO;
 
+    private void Awake()
+    {
+        playerSO = transform.GetComponent<PlayerCtrl>().PlayerSO;
+    }
     public void TakeDamage(int amount)
     {
         health -= amount;
         Debug.Log("mat mau ");
         if (health > 0) return;
         Debug.Log("Game over");
-    }
-
-    private void Awake()
-    {
-        playerSO = transform.GetComponent<PlayerCtrl>().PlayerSO;
     }
     private void OnEnable()
     {
@@ -46,6 +45,11 @@ public class Player : MonoBehaviour, IHealth
         if (lever == playerSO.listLever.Count) return;
         exp += amount;
         if (exp < playerSO.listLever[lever]) return;
+        LevelUp();
+    }
+    protected void LevelUp()
+    {
+        //Time.timeScale = 0;
         lever++;
         exp = 0;
     }
