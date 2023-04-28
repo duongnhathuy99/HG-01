@@ -2,19 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Fireball : MonoBehaviour
+public class Fireball : Skill
 {
-    protected int damage ;
-    protected int level;
-    public FireballCtrl fireballCtrl { get; private set; }
-    private void Awake()
+    [SerializeField] protected float speed;
+    public float Speed => speed;
+    protected override void Awake()
     {
-        fireballCtrl = transform.GetComponent<FireballCtrl>();
-        level = GameObject.FindWithTag("Player").GetComponentInChildren<PlayerCtrl>().Player.Level;
+        base.Awake();
     }
     private void Start()
     {
-        damage = fireballCtrl.FireballSO.listDamageLevel[level];
+        //damageSkill = skillSO.damage;
+    }
+    private void OnEnable()
+    {
+        damageSkill = skillData.damage;
+        levelSkill = skillData.level;
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -23,7 +26,14 @@ public class Fireball : MonoBehaviour
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
         
-        health.TakeDamage(damage);
+        health.TakeDamage(damageSkill);
         FireballSpawner.Instance.Despawn(transform);
+    }
+    public override void LoadDataSkill()
+    {
+        base.LoadDataSkill();
+        speed = skillSO.speed;
+
+        skillData.speed = skillSO.speed;
     }
 }

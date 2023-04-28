@@ -5,8 +5,9 @@ using UnityEngine;
 public abstract class FireballAbstract : MonoBehaviour
 {
     public FireballCtrl FireballCtrl { get; private set; }
+    public Fireball Fireball{ get; private set; }
     protected virtual void Awake()
     {
-        FireballCtrl = GetComponentInParent<FireballCtrl>();
+        Fireball = GetComponentInParent<Fireball>();
     }
 }

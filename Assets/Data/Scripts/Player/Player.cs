@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour, IHealth
 {
@@ -10,18 +11,16 @@ public class Player : MonoBehaviour, IHealth
     public int Exp => exp;
     [SerializeField] protected int lever = 0;
     public int Level => lever;
+    public List<Skill> skills;
+    [SerializeField] Fireball fireball;
     PlayerSO playerSO;
-
+    PlayerCtrl playerCtrl;
     private void Awake()
     {
+        playerCtrl = transform.GetComponent<PlayerCtrl>();
         playerSO = transform.GetComponent<PlayerCtrl>().PlayerSO;
-    }
-    public void TakeDamage(int amount)
-    {
-        health -= amount;
-        Debug.Log("mat mau ");
-        if (health > 0) return;
-        Debug.Log("Game over");
+        fireball.LoadDataSkill();
+        skills.Add(fireball);
     }
     private void OnEnable()
     {
@@ -32,25 +31,41 @@ public class Player : MonoBehaviour, IHealth
         //Debug.Log("va cham " + other.gameObject.name);
         IItem item = other.GetComponent<IItem>();
         if (item == null) return;
+
         item.PickItem(this);
         ItemSpawner.Instance.Despawn(other.transform);
     }
-    public void SetHealth(int amount)
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+        if (health > 0) return;
+        Debug.Log("Game over");
+    }
+    public void AddHealth(int amount)
     {
         health += amount;
         if (health > playerSO.heathMax) health = playerSO.heathMax;
     }
-    public void SetExp(int amount)
+    public void AddExp(int amount)
     {
         if (lever == playerSO.listLever.Count) return;
         exp += amount;
+        playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[lever]);
         if (exp < playerSO.listLever[lever]) return;
         LevelUp();
     }
     protected void LevelUp()
     {
-        //Time.timeScale = 0;
+        exp -= playerSO.listLever[lever];
+        playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[lever]);
         lever++;
-        exp = 0;
+        playerCtrl.MenuUpgrade.gameObject.SetActive(true);
+        Time.timeScale = 0;
+    }
+    public Skill GetSkill(string name)
+    {
+        foreach (Skill skill in skills)
+            if (skill.Name == name) return skill;
+        return null;
     }
 }

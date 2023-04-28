@@ -1,11 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour
 {
     [SerializeField] protected PlayerSO playerSO;
     public PlayerSO PlayerSO => playerSO;
+
+    [SerializeField] Transform menuUpgrade;
+    public Transform MenuUpgrade => menuUpgrade;
+
+    [SerializeField] ExpBar expBar;
+    public ExpBar ExpBar => expBar;
+
     public Player Player { get; private set; }
     public PlayerAttack PlayerAttack { get; private set; }
     public PlayerMovement PlayerMovement { get; private set; }

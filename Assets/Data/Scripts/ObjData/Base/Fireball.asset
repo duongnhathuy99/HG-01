@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68623ed68888edd43bae9eb88adcd73b, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
+  nameSkill: Fireball
   damage: 50
-  bulletSpeed: 7
+  damagePerLevel: 10
+  timeCountdown: 1.5
+  spriteSkill: {fileID: -853213043, guid: 6d06a4691cf86f144aa096ac9fd5a785, type: 3}
+  detailSkill: 
+  speed: 5

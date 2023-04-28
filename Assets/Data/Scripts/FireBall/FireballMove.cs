@@ -8,7 +8,7 @@ public class FireballMove : FireballAbstract
      [SerializeField] protected Vector3 directionFireball = Vector3.right;
     private void Start()
     {
-        moveSpeed = FireballCtrl.FireballSO.fireballSpeed;
+        moveSpeed = Fireball.Speed;
     }
     private void FixedUpdate()
      {

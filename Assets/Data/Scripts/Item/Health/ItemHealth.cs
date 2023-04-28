@@ -11,7 +11,7 @@ public class ItemHealth : MonoBehaviour, IItem
     }
     public void PickItem(Player player)
     {
-        player.SetHealth(itemHealthSO.health); 
+        player.AddHealth(itemHealthSO.health); 
     }
 
 }

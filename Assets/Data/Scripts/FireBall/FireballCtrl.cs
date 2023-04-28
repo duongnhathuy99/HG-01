@@ -6,10 +6,11 @@ public class FireballCtrl : MonoBehaviour
 {
     public BoxCollider BoxCollider { get; private set; }
 
-    [SerializeField] protected FireballSO bulletSO;
-    public FireballSO FireballSO => bulletSO;
+    [SerializeField] protected SkillSO fireballSO;
+    public SkillSO FireballSO => fireballSO;
     private void Awake()
     {
         BoxCollider = GetComponent<BoxCollider>();
+        //fireballSO= GetComponent<Fireball>().fire;
     }
 }

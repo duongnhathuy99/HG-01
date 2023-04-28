@@ -11,7 +11,7 @@ public class ItemExp : MonoBehaviour, IItem
     }
     public void PickItem(Player player)
     {
-        player.SetExp(itemExpSO.exp);
+        player.AddExp(itemExpSO.exp);
     }
 
 }
