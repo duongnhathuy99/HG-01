@@ -61,5 +61,6 @@ public class PlayerMovement : PlayerAbstract
         movementDirection.x = MovementJoystick.Instance.joystickvec.x + Input.GetAxis("Horizontal");
         movementDirection.y = MovementJoystick.Instance.joystickvec.y + Input.GetAxis("Vertical");
         movementDirection.z = 0;
+        //movementDirection.Normalize();
     }
 }

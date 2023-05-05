@@ -5,18 +5,15 @@ using UnityEngine;
 public class Skill : MonoBehaviour
 {
     [SerializeField] protected SkillDataSO skillData;
-    protected string nameSkill;
     [SerializeField] protected SkillSO skillSO;
-    [SerializeField] protected int levelSkill;
-    [SerializeField] protected int damageSkill;
-    [SerializeField] protected float timeCountdown;
-    protected Sprite spriteSkill;
     protected new Collider collider;
-    public string Name => nameSkill;
-    public int Level => levelSkill;
-    public int Damage => damageSkill;
-    public float TimeCountdown => timeCountdown;
-    public Sprite Sprite => spriteSkill;
+    public string Name => skillData.nameSkill;
+    public int Level => skillData.level;
+    public int Damage => skillData.damage;
+    public float SkillCD => skillData.skillCD;
+    public int BulletNumber => skillData.bulletNumber;
+    public float BulletCD => skillData.bulletCD;
+    public Sprite Sprite => skillData.sprite;
     
     protected virtual void Awake()
     {
@@ -24,26 +21,23 @@ public class Skill : MonoBehaviour
     }
     public virtual void UpgradeSkill()
     {
-        levelSkill++;
-        damageSkill += skillSO.damagePerLevel;
-        //skillSO.damage = damageSkill;
-        //skill data
+      
         skillData.level++;
-        skillData.damage+= skillSO.damagePerLevel;
+        skillData.damage += skillSO.damagePerLevel;
+    }
+    public virtual void GetSkill()
+    {
+        skillData.level = 1;
     }
     public virtual void LoadDataSkill()
     {
-        nameSkill = transform.name;
-        levelSkill = 0;
-        spriteSkill = skillSO.spriteSkill;
-        timeCountdown = skillSO.timeCountdown;
-        damageSkill = skillSO.damage;
-
-        //skill data
+       //load data base;
         skillData.damage = skillSO.damage;
         skillData.level = 0;
         skillData.nameSkill = transform.name;
-        skillData.timeCountdown = skillSO.timeCountdown;
+        skillData.skillCD = skillSO.skillCD;
+        skillData.bulletCD = skillSO.bulletCD;
+        skillData.bulletNumber = skillSO.bulletNumber;
         skillData.sprite = skillSO.spriteSkill;
     }
 }

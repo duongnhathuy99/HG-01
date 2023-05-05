@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68623ed68888edd43bae9eb88adcd73b, type: 3}
+  m_Name: Fireball
+  m_EditorClassIdentifier: 
+  nameSkill: Fireball
+  damage: 50
+  damagePerLevel: 10
+  skillCD: 1.5
+  bulletNumber: 1
+  bulletCD: 0.2
+  spriteSkill: {fileID: -1610641529, guid: e39eb7a9ed7964e4895c2d31ad3b28cb, type: 3}
+  detailSkill: 
+  speed: 5

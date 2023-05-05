@@ -7,13 +7,14 @@ public class SkillsUpgrade : MonoBehaviour
     public List<Skill> skills;
     private void Awake()
     {
-        Debug.Log("awake menu");
+        //Debug.Log("awake menu");
        /* foreach (Skill skill in skills)
             skill.LoadDataSkill();*/
         
     }
     public Skill GetSkillRandom()
     {
-        return skills[0];
+        int ran = Random.Range(0, skills.Count);
+        return skills[ran];
     }
 }

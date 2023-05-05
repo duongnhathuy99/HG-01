@@ -12,12 +12,13 @@ public class BtnSkill : MonoBehaviour
     [SerializeField] TextMeshProUGUI textSkill;
     SkillsUpgrade skillsUpgrade;
     Skill skill;
-
+    Player player;
     private void Awake()
     {
         fireballBtn = transform.GetComponent<Button>();
         menuUpgrade = transform.parent.GetComponent<Transform>();
         skillsUpgrade = menuUpgrade.GetComponent<SkillsUpgrade>();
+        player =  GameObject.FindWithTag("Player").GetComponent<Player>();
     }
     private void OnEnable()
     {
@@ -31,7 +32,13 @@ public class BtnSkill : MonoBehaviour
     }
     void OnClick()
     {
-        skill.UpgradeSkill();
+        if (skill.Level == 0) 
+        {
+            player.GetSkill(skill); 
+            skill.GetSkill(); 
+        }
+        else
+            skill.UpgradeSkill();
         Time.timeScale = 1;
         menuUpgrade.gameObject.SetActive(false);
     }

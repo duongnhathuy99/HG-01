@@ -12,15 +12,13 @@ public class Player : MonoBehaviour, IHealth
     [SerializeField] protected int lever = 0;
     public int Level => lever;
     public List<Skill> skills;
-    [SerializeField] Fireball fireball;
     PlayerSO playerSO;
     PlayerCtrl playerCtrl;
     private void Awake()
     {
         playerCtrl = transform.GetComponent<PlayerCtrl>();
         playerSO = transform.GetComponent<PlayerCtrl>().PlayerSO;
-        fireball.LoadDataSkill();
-        skills.Add(fireball);
+        skills[0].UpgradeSkill();
     }
     private void OnEnable()
     {
@@ -62,10 +60,9 @@ public class Player : MonoBehaviour, IHealth
         playerCtrl.MenuUpgrade.gameObject.SetActive(true);
         Time.timeScale = 0;
     }
-    public Skill GetSkill(string name)
+    public void GetSkill(Skill skill)
     {
-        foreach (Skill skill in skills)
-            if (skill.Name == name) return skill;
-        return null;
+        skills.Add(skill);
+        playerCtrl.PlayerAttack.LoadSkill();
     }
 }

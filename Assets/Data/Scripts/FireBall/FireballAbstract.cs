@@ -4,10 +4,10 @@ using UnityEngine;
 
 public abstract class FireballAbstract : MonoBehaviour
 {
-    public FireballCtrl FireballCtrl { get; private set; }
-    public Fireball Fireball{ get; private set; }
+    //public FireballCtrl FireballCtrl { get; private set; }
+    public ProjectileSkill Fireball{ get; private set; }
     protected virtual void Awake()
     {
-        Fireball = GetComponentInParent<Fireball>();
+        Fireball = GetComponentInParent<ProjectileSkill>();
     }
 }

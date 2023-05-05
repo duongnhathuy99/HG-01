@@ -32,7 +32,7 @@ public class FireballDespawn : MonoBehaviour
     }
     public virtual void DespawnObject()
     {
-        FireballSpawner.Instance.Despawn(transform.parent);
+        SkillSpawner.Instance.Despawn(transform.parent);
     }
 
 }
