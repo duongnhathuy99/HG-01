@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class FireballAbstract : MonoBehaviour
+public abstract class ProjectileAbstract : MonoBehaviour
 {
     //public FireballCtrl FireballCtrl { get; private set; }
     public ProjectileSkill Fireball{ get; private set; }

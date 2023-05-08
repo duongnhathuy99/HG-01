@@ -17,9 +17,12 @@ public class Spawner : MonoBehaviour
     protected virtual void Awake()
     {
         LoadPrefabs();
+        LoadHolder();
+    }
+    protected virtual void LoadHolder()
+    {
         holder = transform.Find("Holder");
     }
-
     protected virtual void LoadPrefabs()
     {
         if (prefabs.Count > 0) return;

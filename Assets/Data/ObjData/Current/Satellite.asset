@@ -9,10 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6b0e1c5ef66d642a026762419f5c0f, type: 3}
-  m_Name: Player
+  m_Script: {fileID: 11500000, guid: 868598aa41bd99c4283a7d2f88fb5a56, type: 3}
+  m_Name: Satellite
   m_EditorClassIdentifier: 
-  heathMax: 1000
-  moveSpeed: 3
-  attackSpeed: 1.5
-  listLever: 64000000c80000002c01000090010000f401000058020000bc0200002003000084030000e80300004c040000
+  nameSkill: 
+  level: 0
+  damage: 0
+  timeCountdown: 0
+  sprite: {fileID: 0}
+  detail: 
+  speed: 0

@@ -31,7 +31,8 @@ public class PlayerMovement : PlayerAbstract
     private void Flip()
     {
         isFacingRight = !isFacingRight;
-        transform.parent.Rotate(0.0f, 180.0f, 0.0f);
+        //transform.parent.Rotate(0.0f, 180.0f, 0.0f);
+        PlayerCtrl.Model.Rotate(0.0f, 180.0f, 0.0f);
     }
     private void CheckMovementDirection()
     {

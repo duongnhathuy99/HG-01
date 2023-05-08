@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballMove : FireballAbstract
+public class ProjectileMove : ProjectileAbstract
 {
      protected float moveSpeed;
      [SerializeField] protected Vector3 directionFireball = Vector3.right;

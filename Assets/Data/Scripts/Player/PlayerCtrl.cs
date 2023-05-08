@@ -19,6 +19,7 @@ public class PlayerCtrl : MonoBehaviour
     public PlayerMovement PlayerMovement { get; private set; }
     public SpawnPoins enemySpawnPoins { get; private set; }
     public Animator Animator { get; private set; }
+    public Transform Model { get; private set; }
     public Rigidbody Rigidbody { get; private set; }
     public BoxCollider BoxCollider { get; private set; }
     private void Awake()
@@ -27,7 +28,8 @@ public class PlayerCtrl : MonoBehaviour
         PlayerMovement = GetComponentInChildren<PlayerMovement>();
         enemySpawnPoins = GetComponentInChildren<SpawnPoins>();
         Player = GetComponent<Player>();
-        Animator = GetComponent<Animator>();
+        Model = transform.Find("Model");
+        Animator = GetComponentInChildren<Animator>();
         Rigidbody = GetComponent<Rigidbody>();
         BoxCollider = GetComponent<BoxCollider>();
     }

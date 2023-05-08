@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballDespawn : MonoBehaviour
+public class ProjectileDespawn : MonoBehaviour
 {
     [SerializeField] protected float disLimit = 40f;
     [SerializeField] protected float distance = 0f;
