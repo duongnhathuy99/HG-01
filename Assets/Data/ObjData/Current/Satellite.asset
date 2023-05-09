@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 868598aa41bd99c4283a7d2f88fb5a56, type: 3}
   m_Name: Satellite
   m_EditorClassIdentifier: 
-  nameSkill: 
-  level: 0
-  damage: 0
-  timeCountdown: 0
-  sprite: {fileID: 0}
+  nameSkill: Satellite
+  level: 1
+  damage: 25
+  skillCD: 0
+  bulletNumber: 1
+  bulletCD: 0
+  sprite: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
   detail: 
-  speed: 0
+  speed: 150

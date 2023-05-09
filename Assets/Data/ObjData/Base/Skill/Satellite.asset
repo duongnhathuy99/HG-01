@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSkill: Satellite
   damage: 25
-  damagePerLevel: 0
+  damagePerLevel: 5
   skillCD: 0
   bulletNumber: 1
   bulletCD: 0
   spriteSkill: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
   detailSkill: 
-  speed: 100
+  speed: 150

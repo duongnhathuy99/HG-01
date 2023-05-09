@@ -7,6 +7,5 @@ public class PlayerSO : ScriptableObject
 {
     public int heathMax = 1000;
     public float moveSpeed = 0.01f;
-    public float attackSpeed = 2f;
     public List<int> listLever;
 }

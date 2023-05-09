@@ -57,6 +57,7 @@ public class Player : MonoBehaviour, IHealth
         exp -= playerSO.listLever[lever];
         playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[lever]);
         lever++;
+        playerCtrl.MenuUpgrade.GetComponent<SkillsUpgrade>().ShuffleSkills();
         playerCtrl.MenuUpgrade.gameObject.SetActive(true);
         Time.timeScale = 0;
     }
