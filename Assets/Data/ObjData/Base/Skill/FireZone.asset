@@ -9,15 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 868598aa41bd99c4283a7d2f88fb5a56, type: 3}
-  m_Name: Fireball
+  m_Script: {fileID: 11500000, guid: 68623ed68888edd43bae9eb88adcd73b, type: 3}
+  m_Name: FireZone
   m_EditorClassIdentifier: 
-  nameSkill: Fireball
-  level: 1
-  damage: 60
-  skillCD: 1.5
+  nameSkill: FireZone
+  damage: 3
+  damagePerLevel: 1
+  skillCD: 3.4
   bulletNumber: 1
-  bulletCD: 0.2
-  sprite: {fileID: -1610641529, guid: e39eb7a9ed7964e4895c2d31ad3b28cb, type: 3}
-  detail: 
-  speed: 5
+  bulletCD: 0
+  timeDuration: 10
+  spriteSkill: {fileID: -616388110, guid: 9bf4751e733e82e43b060288c0760698, type: 3}
+  detailSkill: 
+  speed: 0

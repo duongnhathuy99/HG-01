@@ -5,9 +5,9 @@ using UnityEngine;
 public abstract class ProjectileAbstract : MonoBehaviour
 {
     //public FireballCtrl FireballCtrl { get; private set; }
-    public ProjectileSkill Fireball{ get; private set; }
+    public ProjectileSkill ProjectileSkill{ get; private set; }
     protected virtual void Awake()
     {
-        Fireball = GetComponentInParent<ProjectileSkill>();
+        ProjectileSkill = GetComponentInParent<ProjectileSkill>();
     }
 }

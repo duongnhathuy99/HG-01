@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: Enemy1
   m_EditorClassIdentifier: 
   damage: 1
-  heathMax: 25
+  heathMax: 30
   moveSpeed: 3
+  timeIncrease: 60
+  damageIncrease: 0
+  heathIncrease: 10
   dropList:
   - itemType: 2
     dropRate: 50

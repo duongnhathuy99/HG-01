@@ -32,7 +32,7 @@ public class ProjectileDespawn : MonoBehaviour
     }
     public virtual void DespawnObject()
     {
-        SkillSpawner.Instance.Despawn(transform.parent);
+        ProjectileSkillSpawner.Instance.Despawn(transform.parent);
     }
 
 }

@@ -11,6 +11,7 @@ public class SkillSO : ScriptableObject
     public float skillCD = 1.5f;
     public int bulletNumber = 1;
     public float bulletCD = 0.2f;
+    public float timeDuration = 0;
     public Sprite spriteSkill;
     public string detailSkill;
     public float speed = 5f;

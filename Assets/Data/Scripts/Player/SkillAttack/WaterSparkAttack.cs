@@ -21,7 +21,7 @@ public class WaterSparkAttack : SkillAttack
         if (EnemySpawner.Instance.Objects.Count <= 0) return false;
 
         float rot_z = RotTargeting();
-        Transform newWaterSpark = SkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        Transform newWaterSpark = ProjectileSkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
         newWaterSpark.gameObject.SetActive(true);
 
         countBullet--;

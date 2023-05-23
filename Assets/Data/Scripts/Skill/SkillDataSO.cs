@@ -10,6 +10,7 @@ public class SkillDataSO : ScriptableObject
     public float skillCD;
     public int bulletNumber;
     public float bulletCD;
+    public float timeDuration;
     public Sprite sprite;
     public string detail;
     public float speed;

@@ -15,8 +15,8 @@ public class Enemy : MonoBehaviour, IHealth
     }
     private void OnEnable()
     {
-        health = enemySO.heathMax;
-        damage = enemySO.damage;
+        health = enemySO.heathMax + enemySO.heathIncrease * (int)(Time.time / enemySO.timeIncrease);
+        damage = enemySO.damage + enemySO.damageIncrease * (int)(Time.time / enemySO.timeIncrease);
     }
     private void OnTriggerStay(Collider other)
     {
@@ -34,5 +34,4 @@ public class Enemy : MonoBehaviour, IHealth
         EnemySpawner.Instance.Despawn(transform);
         enemyCtrl.EnemyDropItem.Drop(enemySO.dropList, transform.position, transform.rotation);
     }
-
 }

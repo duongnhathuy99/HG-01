@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileSkill : Skill
+public class DurationSkill : Skill
 {
-    public float Speed => skillData.speed;
+    public float TimeDuration => skillData.timeDuration;
     protected override void Awake()
     {
         base.Awake();
@@ -15,7 +15,7 @@ public class ProjectileSkill : Skill
     private void OnEnable()
     {
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         Player player = other.GetComponent<Player>();
         if (player != null) return;
@@ -23,11 +23,10 @@ public class ProjectileSkill : Skill
         if (health == null) return;
         
         health.TakeDamage(skillData.damage);
-        ProjectileSkillSpawner.Instance.Despawn(transform);
     }
     public override void LoadDataSkill()
     {
         base.LoadDataSkill();
-        skillData.speed = skillSO.speed;
+        skillData.timeDuration = skillSO.timeDuration;
     }
 }

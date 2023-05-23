@@ -8,7 +8,7 @@ public class ProjectileMove : ProjectileAbstract
      [SerializeField] protected Vector3 directionFireball = Vector3.right;
     private void Start()
     {
-        moveSpeed = Fireball.Speed;
+        moveSpeed = ProjectileSkill.Speed;
     }
     private void FixedUpdate()
      {
