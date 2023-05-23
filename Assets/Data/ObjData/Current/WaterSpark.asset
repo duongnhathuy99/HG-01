@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 868598aa41bd99c4283a7d2f88fb5a56, type: 3}
   m_Name: WaterSpark
   m_EditorClassIdentifier: 
-  nameSkill: 
-  level: 0
-  damage: 0
-  timeCountdown: 0
-  sprite: {fileID: 0}
+  nameSkill: WaterSpark
+  level: 1
+  damage: 25
+  skillCD: 2
+  bulletNumber: 20
+  bulletCD: 0.2
+  sprite: {fileID: 21300000, guid: 4e577373e42b42c41a8e5a84d79a586f, type: 3}
   detail: 
-  speed: 0
+  speed: 7

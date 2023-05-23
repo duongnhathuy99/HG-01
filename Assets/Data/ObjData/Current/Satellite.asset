@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Satellite
   m_EditorClassIdentifier: 
   nameSkill: Satellite
-  level: 1
-  damage: 25
+  level: 7
+  damage: 55
   skillCD: 0
-  bulletNumber: 1
+  bulletNumber: 20
   bulletCD: 0
   sprite: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
   detail: 

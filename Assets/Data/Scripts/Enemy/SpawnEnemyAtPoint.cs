@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class SpawnEnemyAtPoint : MonoBehaviour
 {
-    [SerializeField] protected float ramdomDelay = 3f;
+    [SerializeField] protected float ramdomDelay;
     [SerializeField] protected float ramdomTimer = 0f;
-    [SerializeField] protected int enemyLimit = 10;
+    [SerializeField] protected int enemyLimit;
+
+    protected int timeLine = -1;
+    [SerializeField] protected SpawnEnemySO spawnEnemySO;
     protected SpawnPoins spawnPoins;
     private void Awake()
     {
@@ -15,6 +18,7 @@ public class SpawnEnemyAtPoint : MonoBehaviour
    
     private void FixedUpdate()
     {
+        CheckTimeLine();
         EnemySpawning();
     }
     protected virtual void EnemySpawning()
@@ -35,5 +39,17 @@ public class SpawnEnemyAtPoint : MonoBehaviour
     {
         int numerEnemyCurrent = EnemySpawner.Instance.Objects.Count;
         return numerEnemyCurrent >= enemyLimit;
+    }
+    protected void CheckTimeLine()
+    {
+        if (spawnEnemySO.TimeIncreaseList.Count <= timeLine+1) return;
+        if (Time.time > spawnEnemySO.TimeIncreaseList[timeLine+1].timeline)
+        {
+            timeLine++;
+            if(ramdomDelay > spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn)
+            ramdomDelay = spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn;
+            if(enemyLimit < spawnEnemySO.TimeIncreaseList[timeLine].enemyLimit)
+            enemyLimit = spawnEnemySO.TimeIncreaseList[timeLine].enemyLimit;
+        }
     }
 }
