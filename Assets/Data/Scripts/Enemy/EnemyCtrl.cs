@@ -8,9 +8,14 @@ public class EnemyCtrl : MonoBehaviour
     public EnemySO EnemySO => enemySO;
     public EnemyDropItem EnemyDropItem { get; private set; }
     public Rigidbody Rigidbody { get; private set; }
+    public Animator Animator { get; private set; }
+    public Enemy Enemy { get; private set; }
+
     private void Awake()
     {
         Rigidbody = GetComponent<Rigidbody>();
         EnemyDropItem = GetComponentInChildren<EnemyDropItem>();
+        Animator = GetComponent<Animator>();
+        Enemy = GetComponent<Enemy>();
     }
 }

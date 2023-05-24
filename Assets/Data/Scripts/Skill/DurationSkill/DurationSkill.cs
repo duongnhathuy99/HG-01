@@ -6,15 +6,16 @@ public class DurationSkill : Skill
 {
     public float TimeDuration => skillData.timeDuration;
     public float Speed => skillData.speed;
+    float timeDamage = 0.2f;
+    float timeDamageCD = 0;
+    public bool doDamage = false;
     protected override void Awake()
     {
         base.Awake();
     }
-    private void Start()
+    private void FixedUpdate()
     {
-    }
-    private void OnEnable()
-    {
+        CheckDoDamage();
     }
     private void OnTriggerStay(Collider other)
     {
@@ -22,7 +23,7 @@ public class DurationSkill : Skill
         if (player != null) return;
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
-        
+        if (!doDamage) return;
         health.TakeDamage(skillData.damage);
     }
     public override void LoadDataSkill()
@@ -30,5 +31,13 @@ public class DurationSkill : Skill
         base.LoadDataSkill();
         skillData.timeDuration = skillSO.timeDuration;
         skillData.speed = skillSO.speed;
+    }
+    private void CheckDoDamage()
+    {
+        timeDamageCD += Time.fixedDeltaTime;
+        doDamage = false;
+        if (timeDamageCD < timeDamage) return;
+        doDamage = true;
+        timeDamageCD = 0;
     }
 }

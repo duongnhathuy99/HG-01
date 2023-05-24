@@ -20,10 +20,12 @@ public class EnemyMove : EnemyAbstract
     }
     private void Update()
     {
+        if (EnemyCtrl.Enemy.Dead) return;
         CheckMovementDirection();
     }
     private void FixedUpdate()
     {
+        if (EnemyCtrl.Enemy.Dead) return;
         Moving();
     }
     protected virtual void Moving()
