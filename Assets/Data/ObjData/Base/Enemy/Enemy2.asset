@@ -20,6 +20,6 @@ MonoBehaviour:
   heathIncrease: 100
   dropList:
   - itemType: 3
-    dropRate: 50
+    dropRate: 30
   - itemType: 0
     dropRate: 20

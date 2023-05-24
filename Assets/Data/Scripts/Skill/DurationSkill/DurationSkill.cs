@@ -5,6 +5,7 @@ using UnityEngine;
 public class DurationSkill : Skill
 {
     public float TimeDuration => skillData.timeDuration;
+    public float Speed => skillData.speed;
     protected override void Awake()
     {
         base.Awake();
@@ -28,5 +29,6 @@ public class DurationSkill : Skill
     {
         base.LoadDataSkill();
         skillData.timeDuration = skillSO.timeDuration;
+        skillData.speed = skillSO.speed;
     }
 }

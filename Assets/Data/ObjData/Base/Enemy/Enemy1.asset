@@ -17,7 +17,7 @@ MonoBehaviour:
   moveSpeed: 3
   timeIncrease: 60
   damageIncrease: 0
-  heathIncrease: 10
+  heathIncrease: 15
   dropList:
   - itemType: 2
     dropRate: 50
