@@ -33,11 +33,12 @@ public class Player : MonoBehaviour, IHealth
         item.PickItem(this);
         ItemSpawner.Instance.Despawn(other.transform);
     }
-    public void TakeDamage(int amount)
+    public bool TakeDamage(int amount)
     {
         health -= amount;
-        if (health > 0) return;
+        if (health > 0) return true;
         Debug.Log("Game over");
+        return true;
     }
     public void AddHealth(int amount)
     {

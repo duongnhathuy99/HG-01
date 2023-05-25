@@ -21,13 +21,18 @@ public class ProjectileSkill : Skill
         if (player != null) return;
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
-        
-        health.TakeDamage(skillData.damage);
+
+        if (!health.TakeDamage(skillData.damage)) return;
         ProjectileSkillSpawner.Instance.Despawn(transform);
     }
     public override void LoadDataSkill()
     {
         base.LoadDataSkill();
         skillData.speed = skillSO.speed;
+    }
+    public override void UpgradeSkill()
+    {
+        base.UpgradeSkill();
+        skillData.bulletNumber++;
     }
 }

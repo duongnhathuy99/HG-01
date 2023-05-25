@@ -35,14 +35,15 @@ public class Enemy : MonoBehaviour, IHealth
 
         health.TakeDamage(damage);
     }
-    public void TakeDamage(int amount)
+    public bool TakeDamage(int amount)
     {
-        if (Dead) return;
+        if (Dead) return false;
         health -= amount;
         enemyCtrl.Animator.SetTrigger("Hit");
-        if (health > 0) return;
+        if (health > 0) return true;
         Dead = true;
         enemyCtrl.Animator.SetBool("Dead", Dead);
+        return true;
     }
     void CheckDead()
     {
