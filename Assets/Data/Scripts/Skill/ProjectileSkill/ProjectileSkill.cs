@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ProjectileSkill : Skill
 {
-    public float Speed => skillData.speed;
     protected override void Awake()
     {
         base.Awake();
@@ -12,10 +11,7 @@ public class ProjectileSkill : Skill
     private void Start()
     {
     }
-    private void OnEnable()
-    {
-    }
-    private void OnTriggerEnter(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
         if (player != null) return;
@@ -24,11 +20,6 @@ public class ProjectileSkill : Skill
 
         if (!health.TakeDamage(skillData.damage)) return;
         ProjectileSkillSpawner.Instance.Despawn(transform);
-    }
-    public override void LoadDataSkill()
-    {
-        base.LoadDataSkill();
-        skillData.speed = skillSO.speed;
     }
     public override void UpgradeSkill()
     {

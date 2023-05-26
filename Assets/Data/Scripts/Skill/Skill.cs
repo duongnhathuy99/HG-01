@@ -7,6 +7,7 @@ public class Skill : MonoBehaviour
     [SerializeField] protected SkillDataSO skillData;
     [SerializeField] protected SkillSO skillSO;
     protected new Collider collider;
+    protected Animator animator;
     public string Name => skillData.nameSkill;
     public int Level => skillData.level;
     public int Damage => skillData.damage;
@@ -14,10 +15,11 @@ public class Skill : MonoBehaviour
     public int BulletNumber => skillData.bulletNumber;
     public float BulletCD => skillData.bulletCD;
     public Sprite Sprite => skillData.sprite;
-    
+    public float Speed => skillData.speed;
     protected virtual void Awake()
     {
         collider = transform.GetComponent<Collider>();
+        animator = transform.GetComponentInChildren<Animator>();
     }
     public virtual void UpgradeSkill()
     {
@@ -39,5 +41,6 @@ public class Skill : MonoBehaviour
         skillData.bulletCD = skillSO.bulletCD;
         skillData.bulletNumber = skillSO.bulletNumber;
         skillData.sprite = skillSO.spriteSkill;
+        skillData.speed = skillSO.speed;
     }
 }

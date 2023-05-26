@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class FollowSkill : Skill
 {
-    public float Speed => skillData.speed;
     protected override void Awake()
     {
         base.Awake();
@@ -23,11 +22,6 @@ public class FollowSkill : Skill
         if (health == null) return;
         
         health.TakeDamage(skillData.damage);
-    }
-    public override void LoadDataSkill()
-    {
-        base.LoadDataSkill();
-        skillData.speed = skillSO.speed;
     }
     public override void UpgradeSkill()
     {

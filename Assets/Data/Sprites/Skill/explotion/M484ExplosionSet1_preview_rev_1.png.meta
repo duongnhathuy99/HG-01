@@ -1,0 +1,1656 @@
+fileFormatVersion: 2
+guid: 446f9aacbd4c70844a6089f84f96bdc5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093bab4adf460ad4588573abc57c3176
+      internalID: -1114254080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ca11ecc7707f246b45506e24f3e243
+      internalID: 1597859196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbada02c7a64f744b93ef94d937c8f9
+      internalID: -34976010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_12
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77ee24b982d00c4b9e8cd989db354e1
+      internalID: -946358186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6127a5ad0c66304aad1953861e392bf
+      internalID: -2036057722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b204afa6d05524786408479324c533
+      internalID: 521370268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 200
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d7f45ca123e42409a2a2e39e205edd
+      internalID: 961555109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_33
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd54d6675102274ba6bc31cf616baa1
+      internalID: 1452084075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6827ac0f4d80174faa55eedeb599d62
+      internalID: -1405214083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_35
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945740066bc773042964349c867815e3
+      internalID: 1330824409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_36
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4496bc2282b234ea974d15eaf43544
+      internalID: -1782568447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e8860f7cb45ff41b123a6a0947235e
+      internalID: 1109191238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee257ad66c74159499e6e800d80e9f51
+      internalID: 1904733560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_39
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 181
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72b7d466bc3d9845a87a263dd70ea25
+      internalID: 1299439753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_62
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d840b42eee05002488911d5c07be0164
+      internalID: -1587329145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_63
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aed5bd406f779840896afb9d01d6e7d
+      internalID: -1770227752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_64
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d83defc3f581c44815d08176fb6f13
+      internalID: 835944532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_65
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03f108fac255b7459c020921e65686b
+      internalID: 1914860590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a8eff57e497b74094ecc4a05ced5d4
+      internalID: 1040953413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6551b00185b07943ba784629f90fbe0
+      internalID: 1120215448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_68
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 165
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3ba195cddaf7549a4fa2e0e14e8c1a
+      internalID: -741916195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_80
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e8e8f120c1f9949bc4a02171fc2ff7
+      internalID: -800579093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_81
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2dd28e306e0a14097f98688552d27b
+      internalID: 375285408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_82
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae40275d7775c54dbf1b58384b3ae39
+      internalID: -1550273928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_83
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf445156573a2648aaefa8062e4e275
+      internalID: 1634682321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14044f2d37098324a9d117a28663a82f
+      internalID: -495649180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_85
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e560b54a17fc2141a9f89240f720e53
+      internalID: -1282426798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_86
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 129
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d549fe070dbcae544af02587db13934b
+      internalID: -1250312960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_103
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea5848f6ac0f4444948153b067e96ad
+      internalID: -2085444174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_104
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0442381e36a2c884aad1851906a8ec8c
+      internalID: -1013681175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_105
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace557b5934e1924faad907e14b7eee0
+      internalID: -620148591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_106
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d1c24f85aaf724ab4249d3a9b196ab
+      internalID: 630721219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_107
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f7152cf803256438e994be98c878b3
+      internalID: -1449332179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_108
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fef26fe89b98548babcdb5faa2d8a4
+      internalID: -1121494862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_109
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 111
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3bfc856834aac419db3233c190ace9
+      internalID: -780487256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_117
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe3ed6d8140214d81220f8920885fe
+      internalID: 1835705087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_118
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97c06b599bd0bf47a876c0e69e14c60
+      internalID: 705694558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_119
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea7ccd0d97a9b40aefd446f9e78ec3
+      internalID: -2071684744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_120
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92d428bc060ee14f91a22f20c07f8bc
+      internalID: 1516735667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_121
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e05311e41289449931bb70a440bfca
+      internalID: -1117832505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_122
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d5279fe000234c94afbed2e18f7bf
+      internalID: -1529769957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_123
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d8d4aaa893b224eb912a45bad96f25
+      internalID: -1495159585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_143
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c255eb636930d4db9c5e801c8136b6
+      internalID: 1715899284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_144
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd3f79da1d8cc4dbb0195450ffdaa3
+      internalID: -1767558658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_145
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25d20217b56a7b4fa0c67b734c2222a
+      internalID: -1132922087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_146
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97dc8822f46470418462daf630d09cf
+      internalID: 35484951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bad173b7dbe6c4c8848950d95ba11d
+      internalID: -462997800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_148
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe3cb0f1bef24e4ba5b06ad4a49c169
+      internalID: 35768312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_149
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 56
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140902e0219b754998c2b5bfbe07dac
+      internalID: -782613667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_165
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ef25590a127194eb3b561538ffcc0d
+      internalID: 1023528305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_166
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc189204a57e58d4da097a7e893193ae
+      internalID: -831005590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_167
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717abbc4d2f462b47aae45df44adcb49
+      internalID: 597863057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_168
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592e150feeafb2b479ce09c610cfdfdc
+      internalID: 781931413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_169
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47e6b429718d804882e780b8d87e2c6
+      internalID: 391091027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_170
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa48fb6c136954b964bacc2a9c37d3
+      internalID: -681115370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_171
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 37
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b251371585296d43a8278be772a32fd
+      internalID: -2125570341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_179
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef887726dd4d22409b3d4db57dc2e13
+      internalID: 2064749265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_180
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793f1293378a70d478b77c8b31b0b737
+      internalID: 1260155488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_181
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670449560fad9dd47842d657fb5b1c47
+      internalID: -380565182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_182
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9b171e2861b694980bb1846a3b6d78
+      internalID: 1075946399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_183
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c13c7b90647bd4fba53253f74143f2
+      internalID: -33863792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_184
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff42d3dc0df40418308b2e7b212849
+      internalID: 1539061372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M484ExplosionSet1_preview_rev_1_185
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 21
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c472a0c519f7da44bc4785dad5e2a6e
+      internalID: 248528659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      M484ExplosionSet1_preview_rev_1_0: -1865886109
+      M484ExplosionSet1_preview_rev_1_1: 593005450
+      M484ExplosionSet1_preview_rev_1_10: 1597859196
+      M484ExplosionSet1_preview_rev_1_100: 1617237493
+      M484ExplosionSet1_preview_rev_1_101: -59430804
+      M484ExplosionSet1_preview_rev_1_102: 1213693653
+      M484ExplosionSet1_preview_rev_1_103: -2085444174
+      M484ExplosionSet1_preview_rev_1_104: -1013681175
+      M484ExplosionSet1_preview_rev_1_105: -620148591
+      M484ExplosionSet1_preview_rev_1_106: 630721219
+      M484ExplosionSet1_preview_rev_1_107: -1449332179
+      M484ExplosionSet1_preview_rev_1_108: -1121494862
+      M484ExplosionSet1_preview_rev_1_109: -780487256
+      M484ExplosionSet1_preview_rev_1_11: -34976010
+      M484ExplosionSet1_preview_rev_1_110: 2031543173
+      M484ExplosionSet1_preview_rev_1_111: 969902326
+      M484ExplosionSet1_preview_rev_1_112: 1563880196
+      M484ExplosionSet1_preview_rev_1_113: 240894768
+      M484ExplosionSet1_preview_rev_1_114: 1929010827
+      M484ExplosionSet1_preview_rev_1_115: 959886755
+      M484ExplosionSet1_preview_rev_1_116: -1315524223
+      M484ExplosionSet1_preview_rev_1_117: 1835705087
+      M484ExplosionSet1_preview_rev_1_118: 705694558
+      M484ExplosionSet1_preview_rev_1_119: -2071684744
+      M484ExplosionSet1_preview_rev_1_12: -946358186
+      M484ExplosionSet1_preview_rev_1_120: 1516735667
+      M484ExplosionSet1_preview_rev_1_121: -1117832505
+      M484ExplosionSet1_preview_rev_1_122: -1529769957
+      M484ExplosionSet1_preview_rev_1_123: -1495159585
+      M484ExplosionSet1_preview_rev_1_124: -855945760
+      M484ExplosionSet1_preview_rev_1_125: 317638337
+      M484ExplosionSet1_preview_rev_1_126: -1041000385
+      M484ExplosionSet1_preview_rev_1_127: -1127702022
+      M484ExplosionSet1_preview_rev_1_128: 2131535878
+      M484ExplosionSet1_preview_rev_1_129: 1225816712
+      M484ExplosionSet1_preview_rev_1_13: -2036057722
+      M484ExplosionSet1_preview_rev_1_130: -1982095589
+      M484ExplosionSet1_preview_rev_1_131: -1395188518
+      M484ExplosionSet1_preview_rev_1_132: 1552108156
+      M484ExplosionSet1_preview_rev_1_133: -1755998785
+      M484ExplosionSet1_preview_rev_1_134: -1126569502
+      M484ExplosionSet1_preview_rev_1_135: 880073807
+      M484ExplosionSet1_preview_rev_1_136: 303454231
+      M484ExplosionSet1_preview_rev_1_137: -2104884448
+      M484ExplosionSet1_preview_rev_1_138: -1412847690
+      M484ExplosionSet1_preview_rev_1_139: 589365956
+      M484ExplosionSet1_preview_rev_1_14: 521370268
+      M484ExplosionSet1_preview_rev_1_140: -1834275393
+      M484ExplosionSet1_preview_rev_1_141: 20007992
+      M484ExplosionSet1_preview_rev_1_142: 804251154
+      M484ExplosionSet1_preview_rev_1_143: 1715899284
+      M484ExplosionSet1_preview_rev_1_144: -1767558658
+      M484ExplosionSet1_preview_rev_1_145: -1132922087
+      M484ExplosionSet1_preview_rev_1_146: 35484951
+      M484ExplosionSet1_preview_rev_1_147: -462997800
+      M484ExplosionSet1_preview_rev_1_148: 35768312
+      M484ExplosionSet1_preview_rev_1_149: -782613667
+      M484ExplosionSet1_preview_rev_1_15: 961555109
+      M484ExplosionSet1_preview_rev_1_150: 106293259
+      M484ExplosionSet1_preview_rev_1_151: -321426285
+      M484ExplosionSet1_preview_rev_1_152: 1195562150
+      M484ExplosionSet1_preview_rev_1_153: 1250974647
+      M484ExplosionSet1_preview_rev_1_154: 1425984232
+      M484ExplosionSet1_preview_rev_1_155: -235948547
+      M484ExplosionSet1_preview_rev_1_156: 1132178896
+      M484ExplosionSet1_preview_rev_1_157: 45075253
+      M484ExplosionSet1_preview_rev_1_158: -1490002122
+      M484ExplosionSet1_preview_rev_1_159: -1264951451
+      M484ExplosionSet1_preview_rev_1_16: -1285440005
+      M484ExplosionSet1_preview_rev_1_160: 966015428
+      M484ExplosionSet1_preview_rev_1_161: 2057071759
+      M484ExplosionSet1_preview_rev_1_162: 51653762
+      M484ExplosionSet1_preview_rev_1_163: -1790667982
+      M484ExplosionSet1_preview_rev_1_164: -707743204
+      M484ExplosionSet1_preview_rev_1_165: 1023528305
+      M484ExplosionSet1_preview_rev_1_166: -831005590
+      M484ExplosionSet1_preview_rev_1_167: 597863057
+      M484ExplosionSet1_preview_rev_1_168: 781931413
+      M484ExplosionSet1_preview_rev_1_169: 391091027
+      M484ExplosionSet1_preview_rev_1_17: 1103478449
+      M484ExplosionSet1_preview_rev_1_170: -681115370
+      M484ExplosionSet1_preview_rev_1_171: -2125570341
+      M484ExplosionSet1_preview_rev_1_172: -1204119761
+      M484ExplosionSet1_preview_rev_1_173: 2133386198
+      M484ExplosionSet1_preview_rev_1_174: 980023317
+      M484ExplosionSet1_preview_rev_1_175: 589413328
+      M484ExplosionSet1_preview_rev_1_176: 2666859
+      M484ExplosionSet1_preview_rev_1_177: 149479664
+      M484ExplosionSet1_preview_rev_1_178: 330149107
+      M484ExplosionSet1_preview_rev_1_179: 2064749265
+      M484ExplosionSet1_preview_rev_1_18: 1700947043
+      M484ExplosionSet1_preview_rev_1_180: 1260155488
+      M484ExplosionSet1_preview_rev_1_181: -380565182
+      M484ExplosionSet1_preview_rev_1_182: 1075946399
+      M484ExplosionSet1_preview_rev_1_183: -33863792
+      M484ExplosionSet1_preview_rev_1_184: 1539061372
+      M484ExplosionSet1_preview_rev_1_185: 248528659
+      M484ExplosionSet1_preview_rev_1_186: -2011410554
+      M484ExplosionSet1_preview_rev_1_187: -342478290
+      M484ExplosionSet1_preview_rev_1_188: -1985208213
+      M484ExplosionSet1_preview_rev_1_189: -554575431
+      M484ExplosionSet1_preview_rev_1_19: 1768952805
+      M484ExplosionSet1_preview_rev_1_190: -848644882
+      M484ExplosionSet1_preview_rev_1_191: 1890223307
+      M484ExplosionSet1_preview_rev_1_192: -1544734108
+      M484ExplosionSet1_preview_rev_1_193: -864487502
+      M484ExplosionSet1_preview_rev_1_194: 139899719
+      M484ExplosionSet1_preview_rev_1_195: 939399538
+      M484ExplosionSet1_preview_rev_1_196: 446105086
+      M484ExplosionSet1_preview_rev_1_197: -1396050682
+      M484ExplosionSet1_preview_rev_1_2: -62236379
+      M484ExplosionSet1_preview_rev_1_20: 1500741777
+      M484ExplosionSet1_preview_rev_1_21: 2100452167
+      M484ExplosionSet1_preview_rev_1_22: 100802957
+      M484ExplosionSet1_preview_rev_1_23: 403164243
+      M484ExplosionSet1_preview_rev_1_24: -633473530
+      M484ExplosionSet1_preview_rev_1_25: 1137210185
+      M484ExplosionSet1_preview_rev_1_26: 1346287069
+      M484ExplosionSet1_preview_rev_1_27: 802122273
+      M484ExplosionSet1_preview_rev_1_28: 820273534
+      M484ExplosionSet1_preview_rev_1_29: -1544542809
+      M484ExplosionSet1_preview_rev_1_3: -1507552939
+      M484ExplosionSet1_preview_rev_1_30: 1222081650
+      M484ExplosionSet1_preview_rev_1_31: 1870113077
+      M484ExplosionSet1_preview_rev_1_32: 612541128
+      M484ExplosionSet1_preview_rev_1_33: 1452084075
+      M484ExplosionSet1_preview_rev_1_34: -1405214083
+      M484ExplosionSet1_preview_rev_1_35: 1330824409
+      M484ExplosionSet1_preview_rev_1_36: -1782568447
+      M484ExplosionSet1_preview_rev_1_37: 1109191238
+      M484ExplosionSet1_preview_rev_1_38: 1904733560
+      M484ExplosionSet1_preview_rev_1_39: 1299439753
+      M484ExplosionSet1_preview_rev_1_4: -1980686913
+      M484ExplosionSet1_preview_rev_1_40: -1314385784
+      M484ExplosionSet1_preview_rev_1_41: 1784726507
+      M484ExplosionSet1_preview_rev_1_42: -919029379
+      M484ExplosionSet1_preview_rev_1_43: 1925592957
+      M484ExplosionSet1_preview_rev_1_44: -1966027620
+      M484ExplosionSet1_preview_rev_1_45: -368060333
+      M484ExplosionSet1_preview_rev_1_46: 1502861405
+      M484ExplosionSet1_preview_rev_1_47: 57097194
+      M484ExplosionSet1_preview_rev_1_48: -435130133
+      M484ExplosionSet1_preview_rev_1_49: -633240332
+      M484ExplosionSet1_preview_rev_1_5: 1795879765
+      M484ExplosionSet1_preview_rev_1_50: 466410578
+      M484ExplosionSet1_preview_rev_1_51: 475173402
+      M484ExplosionSet1_preview_rev_1_52: -55588938
+      M484ExplosionSet1_preview_rev_1_53: 565117609
+      M484ExplosionSet1_preview_rev_1_54: 2095793918
+      M484ExplosionSet1_preview_rev_1_55: -1666514157
+      M484ExplosionSet1_preview_rev_1_56: -1289601185
+      M484ExplosionSet1_preview_rev_1_57: -2139098990
+      M484ExplosionSet1_preview_rev_1_58: 50894358
+      M484ExplosionSet1_preview_rev_1_59: -1148403133
+      M484ExplosionSet1_preview_rev_1_6: 631458504
+      M484ExplosionSet1_preview_rev_1_60: 1633928513
+      M484ExplosionSet1_preview_rev_1_61: -664718882
+      M484ExplosionSet1_preview_rev_1_62: -1587329145
+      M484ExplosionSet1_preview_rev_1_63: -1770227752
+      M484ExplosionSet1_preview_rev_1_64: 835944532
+      M484ExplosionSet1_preview_rev_1_65: 1914860590
+      M484ExplosionSet1_preview_rev_1_66: 1040953413
+      M484ExplosionSet1_preview_rev_1_67: 1120215448
+      M484ExplosionSet1_preview_rev_1_68: -741916195
+      M484ExplosionSet1_preview_rev_1_69: 32100385
+      M484ExplosionSet1_preview_rev_1_7: -1762897621
+      M484ExplosionSet1_preview_rev_1_70: -677052801
+      M484ExplosionSet1_preview_rev_1_71: 1913173625
+      M484ExplosionSet1_preview_rev_1_72: 1073634472
+      M484ExplosionSet1_preview_rev_1_73: -673406831
+      M484ExplosionSet1_preview_rev_1_74: 315474980
+      M484ExplosionSet1_preview_rev_1_75: 643344404
+      M484ExplosionSet1_preview_rev_1_76: -1921615282
+      M484ExplosionSet1_preview_rev_1_77: 1833789366
+      M484ExplosionSet1_preview_rev_1_78: -1833358516
+      M484ExplosionSet1_preview_rev_1_79: -505720538
+      M484ExplosionSet1_preview_rev_1_8: 379417482
+      M484ExplosionSet1_preview_rev_1_80: -800579093
+      M484ExplosionSet1_preview_rev_1_81: 375285408
+      M484ExplosionSet1_preview_rev_1_82: -1550273928
+      M484ExplosionSet1_preview_rev_1_83: 1634682321
+      M484ExplosionSet1_preview_rev_1_84: -495649180
+      M484ExplosionSet1_preview_rev_1_85: -1282426798
+      M484ExplosionSet1_preview_rev_1_86: -1250312960
+      M484ExplosionSet1_preview_rev_1_87: 1702333347
+      M484ExplosionSet1_preview_rev_1_88: -2116576614
+      M484ExplosionSet1_preview_rev_1_89: -1103353829
+      M484ExplosionSet1_preview_rev_1_9: -1114254080
+      M484ExplosionSet1_preview_rev_1_90: -1758415389
+      M484ExplosionSet1_preview_rev_1_91: 878587951
+      M484ExplosionSet1_preview_rev_1_92: 1670095938
+      M484ExplosionSet1_preview_rev_1_93: -216582410
+      M484ExplosionSet1_preview_rev_1_94: 2142781603
+      M484ExplosionSet1_preview_rev_1_95: -76169641
+      M484ExplosionSet1_preview_rev_1_96: -668291914
+      M484ExplosionSet1_preview_rev_1_97: -614825493
+      M484ExplosionSet1_preview_rev_1_98: -1628098257
+      M484ExplosionSet1_preview_rev_1_99: 1148371987
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -18,6 +18,7 @@ MonoBehaviour:
   skillCD: 1.5
   bulletNumber: 1
   bulletCD: 0.2
-  spriteSkill: {fileID: -1610641529, guid: e39eb7a9ed7964e4895c2d31ad3b28cb, type: 3}
+  timeDuration: 0
+  spriteSkill: {fileID: 305372579, guid: fd85ccf71ec9ef14db0c023590d23712, type: 3}
   detailSkill: 
   speed: 5

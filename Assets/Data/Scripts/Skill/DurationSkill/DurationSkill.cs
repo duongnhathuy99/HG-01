@@ -5,7 +5,6 @@ using UnityEngine;
 public class DurationSkill : Skill
 {
     public float TimeDuration => skillData.timeDuration;
-    public float Speed => skillData.speed;
     float timeDamage = 0.2f;
     float timeDamageCD = 0;
     public bool doDamage = false;
@@ -30,7 +29,6 @@ public class DurationSkill : Skill
     {
         base.LoadDataSkill();
         skillData.timeDuration = skillSO.timeDuration;
-        skillData.speed = skillSO.speed;
     }
     private void CheckDoDamage()
     {

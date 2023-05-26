@@ -16,8 +16,9 @@ MonoBehaviour:
   level: 1
   damage: 25
   skillCD: 2
-  bulletNumber: 20
+  bulletNumber: 3
   bulletCD: 0.2
+  timeDuration: 0
   sprite: {fileID: 21300000, guid: 4e577373e42b42c41a8e5a84d79a586f, type: 3}
   detail: 
   speed: 7
