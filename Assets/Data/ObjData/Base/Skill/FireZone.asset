@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: FireZone
   m_EditorClassIdentifier: 
   nameSkill: FireZone
-  damage: 5
-  damagePerLevel: 1
+  damage: 8
+  damagePerLevel: 5
   skillCD: 3.4
   bulletNumber: 1
   bulletCD: 0

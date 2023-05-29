@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameSkill: Fireball
   damage: 50
-  damagePerLevel: 10
+  damagePerLevel: 20
   skillCD: 1.5
   bulletNumber: 1
   bulletCD: 0.2

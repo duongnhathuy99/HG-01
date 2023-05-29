@@ -14,23 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeIncreaseList:
   - timeline: 0
-    timeSpawn: 2
-    enemyLimit: 10
-  - timeline: 30
     timeSpawn: 1.7
-    enemyLimit: 12
+    enemyLimit: 300
+  - timeline: 30
+    timeSpawn: 1.5
+    enemyLimit: 300
   - timeline: 60
-    timeSpawn: 1.4
-    enemyLimit: 15
+    timeSpawn: 1.2
+    enemyLimit: 300
   - timeline: 90
     timeSpawn: 1
-    enemyLimit: 20
+    enemyLimit: 300
   - timeline: 120
     timeSpawn: 0.8
-    enemyLimit: 30
+    enemyLimit: 300
   - timeline: 180
     timeSpawn: 0.5
-    enemyLimit: 35
+    enemyLimit: 300
   - timeline: 240
     timeSpawn: 0.3
-    enemyLimit: 40
+    enemyLimit: 300
+  - timeline: 360
+    timeSpawn: 0.2
+    enemyLimit: 300

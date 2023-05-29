@@ -6,7 +6,7 @@ using UnityEngine;
 public class TextTimer : MonoBehaviour
 {
     TextMeshProUGUI text;
-    float timeStart = 0f;
+    static public float timeGame = 0f;
     int sencond;
     int minute;
     private void Awake()
@@ -20,8 +20,8 @@ public class TextTimer : MonoBehaviour
     }
     private void CalculationTime()
     {
-        timeStart += Time.fixedDeltaTime;
-        sencond = (int)timeStart % 60;
-        minute = (int)timeStart / 60;
+        timeGame += Time.fixedDeltaTime;
+        sencond = (int)timeGame % 60;
+        minute = (int)timeGame / 60;
     }
 }

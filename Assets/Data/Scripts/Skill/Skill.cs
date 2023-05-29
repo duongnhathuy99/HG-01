@@ -16,6 +16,7 @@ public class Skill : MonoBehaviour
     public float BulletCD => skillData.bulletCD;
     public Sprite Sprite => skillData.sprite;
     public float Speed => skillData.speed;
+    public float DamageInflicted => skillData.damageInflicted;
     protected virtual void Awake()
     {
         collider = transform.GetComponent<Collider>();
@@ -36,6 +37,7 @@ public class Skill : MonoBehaviour
        //load data base;
         skillData.damage = skillSO.damage;
         skillData.level = 0;
+        skillData.damageInflicted = 0;
         skillData.nameSkill = transform.name;
         skillData.skillCD = skillSO.skillCD;
         skillData.bulletCD = skillSO.bulletCD;

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   heathMax: 100
-  moveSpeed: 2
+  moveSpeed: 1.7
   timeIncrease: 60
   damageIncrease: 0
   heathIncrease: 50

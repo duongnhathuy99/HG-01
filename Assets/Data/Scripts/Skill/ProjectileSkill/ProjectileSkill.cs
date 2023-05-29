@@ -19,6 +19,7 @@ public class ProjectileSkill : Skill
         if (health == null) return;
 
         if (!health.TakeDamage(skillData.damage)) return;
+        skillData.damageInflicted += skillData.damage;
         ProjectileSkillSpawner.Instance.Despawn(transform);
     }
     public override void UpgradeSkill()

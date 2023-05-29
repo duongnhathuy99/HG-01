@@ -24,6 +24,7 @@ public class FireballSkill : ProjectileSkill
         if (health == null) return;
 
         if (!health.TakeDamage(skillData.damage)) return;
+        skillData.damageInflicted += skillData.damage;
 
         animator.SetTrigger("Explosion");
         projectileMove.gameObject.SetActive(false);

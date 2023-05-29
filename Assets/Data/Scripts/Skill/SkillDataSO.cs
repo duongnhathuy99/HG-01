@@ -14,4 +14,5 @@ public class SkillDataSO : ScriptableObject
     public Sprite sprite;
     public string detail;
     public float speed;
+    public float damageInflicted;
 }

@@ -23,6 +23,7 @@ public class DurationSkill : Skill
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
         if (!doDamage) return;
+        skillData.damageInflicted += skillData.damage;
         health.TakeDamage(skillData.damage);
     }
     public override void LoadDataSkill()

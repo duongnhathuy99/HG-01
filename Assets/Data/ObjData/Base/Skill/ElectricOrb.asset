@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ElectricOrb
   m_EditorClassIdentifier: 
   nameSkill: ElectricOrb
-  damage: 10
-  damagePerLevel: 2
+  damage: 15
+  damagePerLevel: 5
   skillCD: 3
   bulletNumber: 1
   bulletCD: 0

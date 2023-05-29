@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: WaterSpark
   m_EditorClassIdentifier: 
   nameSkill: WaterSpark
-  damage: 25
-  damagePerLevel: 5
+  damage: 30
+  damagePerLevel: 10
   skillCD: 2
-  bulletNumber: 3
+  bulletNumber: 2
   bulletCD: 0.2
+  timeDuration: 0
   spriteSkill: {fileID: 21300000, guid: 4e577373e42b42c41a8e5a84d79a586f, type: 3}
   detailSkill: 
   speed: 7

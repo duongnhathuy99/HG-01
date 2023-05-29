@@ -20,7 +20,7 @@ public class FollowSkill : Skill
         if (player != null) return;
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
-        
+        skillData.damageInflicted += skillData.damage;
         health.TakeDamage(skillData.damage);
     }
     public override void UpgradeSkill()

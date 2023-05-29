@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu: MonoBehaviour
 {
-    private void Awake()
-    {
-    }
     public void Continue()
     {
         Time.timeScale = 1;
