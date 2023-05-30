@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour, IHealth
     EnemySO enemySO;
     EnemyCtrl enemyCtrl;
     public bool Dead { get; private set; }
+    public bool Undamaged { get; set; }
     private void Awake()
     {
         enemySO = transform.GetComponent<EnemyCtrl>().EnemySO;
@@ -16,6 +17,7 @@ public class Enemy : MonoBehaviour, IHealth
     }
     private void OnEnable()
     {
+        Undamaged = false;
         Dead = false;
         health = enemySO.heathMax + enemySO.heathIncrease * (int)(Time.time / enemySO.timeIncrease);
         damage = enemySO.damage + enemySO.damageIncrease * (int)(Time.time / enemySO.timeIncrease);
@@ -23,6 +25,7 @@ public class Enemy : MonoBehaviour, IHealth
     
     private void OnTriggerStay(Collider other)
     {
+        if (Undamaged) return;
         Enemy enemy = other.GetComponent<Enemy>();
         if (enemy != null) return;
         IHealth health = other.GetComponent<IHealth>();
@@ -32,13 +35,18 @@ public class Enemy : MonoBehaviour, IHealth
     }
     public bool TakeDamage(int amount)
     {
-        if (Dead) return false;
+        if (Undamaged) return false;
         health -= amount;
         enemyCtrl.Animator.SetTrigger("Hit");
         if (health > 0) return true;
-        Dead = true;
-        enemyCtrl.Animator.SetBool("Dead", Dead);
+        StartDead();
         return true;
+    }
+    void StartDead()
+    {
+        Dead = true;
+        Undamaged = true;
+        enemyCtrl.Animator.SetBool("Dead", true);
     }
     void FinishAniDead()
     {
