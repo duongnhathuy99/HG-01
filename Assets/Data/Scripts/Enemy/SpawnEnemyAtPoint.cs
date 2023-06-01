@@ -69,7 +69,7 @@ public class SpawnEnemyAtPoint : MonoBehaviour
     protected void CheckTimeLine()
     {
         if (spawnEnemySO.TimeIncreaseList.Count <= timeLine+1) return;
-        if (TextTimer.timeGame > spawnEnemySO.TimeIncreaseList[timeLine+1].timeline)
+        if (TextTimer.Instance.TimeGame > spawnEnemySO.TimeIncreaseList[timeLine+1].timeline)
         {
             timeLine++;
             if(ramdomDelay > spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn)

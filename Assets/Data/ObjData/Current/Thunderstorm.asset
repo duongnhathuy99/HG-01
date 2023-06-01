@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 868598aa41bd99c4283a7d2f88fb5a56, type: 3}
-  m_Name: Satellite
+  m_Name: Thunderstorm
   m_EditorClassIdentifier: 
-  nameSkill: Satellite
+  nameSkill: WaterSpark
   level: 1
   damage: 30
-  skillCD: 0
-  bulletNumber: 10
-  bulletCD: 0
+  skillCD: 2
+  bulletNumber: 2
+  bulletCD: 0.2
   timeDuration: 0
-  sprite: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
+  sprite: {fileID: 21300000, guid: 4e577373e42b42c41a8e5a84d79a586f, type: 3}
   detail: 
-  speed: 150
-  damageInflicted: 3810
+  speed: 7
+  damageInflicted: 810
