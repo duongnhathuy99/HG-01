@@ -8,4 +8,5 @@ public enum ItemType
     Exp_1 = 1,
     Exp_2 = 2,
     Exp_3 = 3,
+    ArtifactBox = 4,
 }

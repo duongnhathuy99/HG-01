@@ -23,8 +23,8 @@ public class FireballSkill : ProjectileSkill
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
 
-        if (!health.TakeDamage(skillData.damage)) return;
-        skillData.damageInflicted += skillData.damage;
+        if (!health.TakeDamage(Damage)) return;
+        skillSO.attribute.damageInflicted += Damage;
 
         animator.SetTrigger("Explosion");
         projectileMove.gameObject.SetActive(false);

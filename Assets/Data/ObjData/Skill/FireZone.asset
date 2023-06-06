@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68623ed68888edd43bae9eb88adcd73b, type: 3}
+  m_Name: FireZone
+  m_EditorClassIdentifier: 
+  attributeInit:
+    nameSkill: FireZone
+    spriteSkill: {fileID: -616388110, guid: 9bf4751e733e82e43b060288c0760698, type: 3}
+    detailSkill: 
+    damage: 8
+    damagePerLevel: 5
+    skillCD: 3.4
+    bulletNumber: 1
+    timeDuration: 10
+    speed: 0
+  attribute:
+    level: 1
+    damage: 8
+    skillCD: 3.4
+    bulletNumber: 1
+    timeDuration: 10
+    speed: 0
+    damageInflicted: 3520
+  attributeIncrease:
+    damage: 0
+    skillCD: 50
+    bulletNumber: 0
+    timeDuration: 0
+    speed: 0

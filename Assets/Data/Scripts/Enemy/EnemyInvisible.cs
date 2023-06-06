@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class EnemyInvisible : EnemyAbstract
 {
-    [SerializeField] protected Material spritdefaut;
-    [SerializeField] protected Material invisible;
     [SerializeField] protected float timeDuration = 6f;
     [SerializeField] protected float timeInvisible = 6f;
     float timeCD = 0f;
@@ -28,7 +26,7 @@ public class EnemyInvisible : EnemyAbstract
         if (IsInvisible == isInvisible) return;
         IsInvisible = isInvisible;
         EnemyCtrl.Enemy.Undamaged = isInvisible;
-        if (isInvisible) EnemyCtrl.SpriteRenderer.material = invisible;
-        else EnemyCtrl.SpriteRenderer.material = spritdefaut;
+        if (isInvisible) EnemyCtrl.SpriteRenderer.color = new Color(1, 1, 1, 0.5f);
+        else EnemyCtrl.SpriteRenderer.color = new Color(1, 1, 1, 1f);
     }
 }

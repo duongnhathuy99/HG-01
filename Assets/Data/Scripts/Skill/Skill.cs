@@ -4,19 +4,17 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class Skill : MonoBehaviour
 {
-    [SerializeField] protected SkillDataSO skillData;
-    [SerializeField] protected SkillSO skillSO;
+    [SerializeField] protected SkillAttributeSO skillSO;
     protected new Collider collider;
     protected Animator animator;
-    public string Name => skillData.nameSkill;
-    public int Level => skillData.level;
-    public int Damage => skillData.damage;
-    public float SkillCD => skillData.skillCD;
-    public int BulletNumber => skillData.bulletNumber;
-    public float BulletCD => skillData.bulletCD;
-    public Sprite Sprite => skillData.sprite;
-    public float Speed => skillData.speed;
-    public float DamageInflicted => skillData.damageInflicted;
+    public string Name => skillSO.attributeInit.nameSkill;
+    public int Level => skillSO.attribute.level;
+    public Sprite Sprite => skillSO.attributeInit.spriteSkill;
+    public float DamageInflicted => skillSO.attribute.damageInflicted;
+    public float Damage => skillSO.attribute.damage * (1 + skillSO.attributeIncrease.damage / 100);
+    public float SkillCD => skillSO.attribute.skillCD * (1 - skillSO.attributeIncrease.skillCD / 100);
+    public int BulletNumber => skillSO.attribute.bulletNumber + skillSO.attributeIncrease.bulletNumber;
+    public float Speed => skillSO.attribute.speed;
     protected virtual void Awake()
     {
         collider = transform.GetComponent<Collider>();
@@ -24,25 +22,30 @@ public class Skill : MonoBehaviour
     }
     public virtual void UpgradeSkill()
     {
-      
-        skillData.level++;
-        skillData.damage += skillSO.damagePerLevel;
+        skillSO.attribute.level++;
+        skillSO.attribute.damage += skillSO.attributeInit.damagePerLevel;
     }
     public virtual void GetSkill()
     {
-        skillData.level = 1;
+        skillSO.attribute.level = 1;
     }
     public virtual void LoadDataSkill()
     {
-       //load data base;
-        skillData.damage = skillSO.damage;
-        skillData.level = 0;
-        skillData.damageInflicted = 0;
-        skillData.nameSkill = transform.name;
-        skillData.skillCD = skillSO.skillCD;
-        skillData.bulletCD = skillSO.bulletCD;
-        skillData.bulletNumber = skillSO.bulletNumber;
-        skillData.sprite = skillSO.spriteSkill;
-        skillData.speed = skillSO.speed;
+        //load data base;
+        skillSO.attribute.damage = skillSO.attributeInit.damage;
+        skillSO.attribute.skillCD = skillSO.attributeInit.skillCD;
+        skillSO.attribute.bulletNumber = skillSO.attributeInit.bulletNumber;
+        skillSO.attribute.timeDuration = skillSO.attributeInit.timeDuration;
+        skillSO.attribute.speed = skillSO.attributeInit.speed;
+        skillSO.attribute.level = 0;
+        skillSO.attribute.damageInflicted = 0;
+
+        skillSO.attributeIncrease.damage = 0;
+        skillSO.attributeIncrease.skillCD = 0;
+        skillSO.attributeIncrease.speed = 0;
+        skillSO.attributeIncrease.timeDuration = 0;
+        skillSO.attributeIncrease.bulletNumber = 0;
+
+
     }
 }

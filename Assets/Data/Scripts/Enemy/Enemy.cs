@@ -33,10 +33,10 @@ public class Enemy : MonoBehaviour, IHealth
 
         health.TakeDamage(damage);
     }
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(float amount)
     {
         if (Undamaged) return false;
-        health -= amount;
+        health -= (int)amount;
         enemyCtrl.Animator.SetTrigger("Hit");
         if (health > 0) return true;
         StartDead();

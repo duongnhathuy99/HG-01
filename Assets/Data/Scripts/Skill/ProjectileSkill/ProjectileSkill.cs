@@ -18,13 +18,13 @@ public class ProjectileSkill : Skill
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
 
-        if (!health.TakeDamage(skillData.damage)) return;
-        skillData.damageInflicted += skillData.damage;
+        if (!health.TakeDamage(Damage)) return;
+        skillSO.attribute.damageInflicted += Damage;
         ProjectileSkillSpawner.Instance.Despawn(transform);
     }
     public override void UpgradeSkill()
     {
         base.UpgradeSkill();
-        skillData.bulletNumber++;
+        skillSO.attribute.bulletNumber++;
     }
 }

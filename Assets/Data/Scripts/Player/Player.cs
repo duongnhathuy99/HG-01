@@ -12,6 +12,7 @@ public class Player : MonoBehaviour, IHealth
     [SerializeField] protected int lever = 0;
     public int Level => lever;
     public List<Skill> skills;
+    public List<ArtifactSO> artifacts;
     PlayerSO playerSO;
     PlayerCtrl playerCtrl;
     private void Awake()
@@ -33,9 +34,9 @@ public class Player : MonoBehaviour, IHealth
         item.PickItem(this);
         ItemSpawner.Instance.Despawn(other.transform);
     }
-    public bool TakeDamage(int amount)
+    public bool TakeDamage(float amount)
     {
-        health -= amount;
+        health -= (int)amount;
         if (health > 0) return true;
         Debug.Log("Game over");
         return true;
@@ -66,5 +67,10 @@ public class Player : MonoBehaviour, IHealth
     {
         skills.Add(skill);
         playerCtrl.PlayerAttack.LoadSkill();
+    }
+    public void GetArtifact(ArtifactSO artifact)
+    {
+        artifacts.Add(artifact);
+        SkillManager.Instance.LoadAttributeArtifact(artifact);
     }
 }

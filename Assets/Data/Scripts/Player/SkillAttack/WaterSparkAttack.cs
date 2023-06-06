@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WaterSparkAttack : SkillAttack
 {
+    float bulletCD = 0.2f;
     protected float RotTargeting()
     {
         Vector3 diff = EnemySpawner.Instance.Objects[0].position - transform.parent.position;
@@ -17,7 +18,7 @@ public class WaterSparkAttack : SkillAttack
         cdSkill += Time.fixedDeltaTime;
         cdBullet += Time.fixedDeltaTime;
         if (cdSkill < skill.SkillCD) return false;
-        if (cdBullet < skill.BulletCD) return false;
+        if (cdBullet < bulletCD) return false;
         if (EnemySpawner.Instance.Objects.Count <= 0) return false;
 
         float rot_z = RotTargeting();

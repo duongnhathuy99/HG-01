@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68623ed68888edd43bae9eb88adcd73b, type: 3}
+  m_Name: Satellite
+  m_EditorClassIdentifier: 
+  attributeInit:
+    nameSkill: Satellite
+    spriteSkill: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
+    detailSkill: 
+    damage: 30
+    damagePerLevel: 10
+    skillCD: 0
+    bulletNumber: 1
+    timeDuration: 0
+    speed: 150
+  attribute:
+    level: 0
+    damage: 30
+    skillCD: 0
+    bulletNumber: 1
+    timeDuration: 0
+    speed: 150
+    damageInflicted: 0
+  attributeIncrease:
+    damage: 0
+    skillCD: 0
+    bulletNumber: 0
+    timeDuration: 0
+    speed: 0

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class BtnSkill : MonoBehaviour
 {
-    Button fireballBtn;
+    Button skillBtn;
     Transform menuUpgrade;
     [SerializeField] Image imageSkill;
     [SerializeField] TextMeshProUGUI textSkill;
@@ -15,7 +15,7 @@ public class BtnSkill : MonoBehaviour
     Player player;
     private void Awake()
     {
-        fireballBtn = transform.GetComponent<Button>();
+        skillBtn = transform.GetComponent<Button>();
         menuUpgrade = transform.parent.GetComponent<Transform>();
         skillsUpgrade = menuUpgrade.GetComponent<SkillsUpgrade>();
         player =  GameObject.FindWithTag("Player").GetComponent<Player>();
@@ -28,7 +28,7 @@ public class BtnSkill : MonoBehaviour
     }
     private void Start()
     {
-        fireballBtn.onClick.AddListener(OnClick);
+        skillBtn.onClick.AddListener(OnClick);
     }
     void OnClick()
     {

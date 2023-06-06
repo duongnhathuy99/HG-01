@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DurationSkill : Skill
 {
-    public float TimeDuration => skillData.timeDuration;
+    public float TimeDuration => skillSO.attribute.timeDuration * (1 + skillSO.attributeIncrease.timeDuration / 100);
     float timeDamage = 0.2f;
     float timeDamageCD = 0;
     public bool doDamage = false;
@@ -23,13 +23,8 @@ public class DurationSkill : Skill
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
         if (!doDamage) return;
-        skillData.damageInflicted += skillData.damage;
-        health.TakeDamage(skillData.damage);
-    }
-    public override void LoadDataSkill()
-    {
-        base.LoadDataSkill();
-        skillData.timeDuration = skillSO.timeDuration;
+        skillSO.attribute.damageInflicted += skillSO.attribute.damage;
+        health.TakeDamage(skillSO.attribute.damage);
     }
     private void CheckDoDamage()
     {

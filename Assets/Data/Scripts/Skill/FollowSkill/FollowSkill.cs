@@ -20,12 +20,13 @@ public class FollowSkill : Skill
         if (player != null) return;
         IHealth health = other.GetComponent<IHealth>();
         if (health == null) return;
-        skillData.damageInflicted += skillData.damage;
-        health.TakeDamage(skillData.damage);
+
+        if (!health.TakeDamage(Damage)) return;
+        skillSO.attribute.damageInflicted += Damage;
     }
     public override void UpgradeSkill()
     {
         base.UpgradeSkill();
-        skillData.bulletNumber++;
+        skillSO.attribute.bulletNumber++;
     }
 }
