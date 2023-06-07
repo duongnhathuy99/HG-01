@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballSkill : ProjectileSkill
+public class FireballSkill : Skill
 {
     ProjectileMove projectileMove;
-    //float rangeExplo = 0.2f;
     protected override void Awake()
     {
         base.Awake();
@@ -13,10 +12,10 @@ public class FireballSkill : ProjectileSkill
     }
     private void OnEnable()
     {
-       // transform.localScale = Vector3.one;
+        transform.localScale = Vector3.one;
         projectileMove.gameObject.SetActive(true);
     }
-    protected override void OnTriggerEnter(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
         if (player != null) return;
@@ -31,11 +30,15 @@ public class FireballSkill : ProjectileSkill
     }
     public override void UpgradeSkill()
     {
-        //transform.localScale *= (1 + rangeExplo * Level);
         base.UpgradeSkill();
+        skillSO.attribute.bulletNumber++;
+    }
+    void StartAniExplosion()
+    {
+        transform.localScale = new Vector3(RangeExplosion, RangeExplosion, 1);
     }
     void FinishAniExplosion()
     {
-        ProjectileSkillSpawner.Instance.Despawn(transform);
+        SkillSpawner.Instance.Despawn(transform);
     }
 }

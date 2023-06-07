@@ -21,7 +21,7 @@ public class ElectricOrbAttack: SkillAttack
         if (cdSkill < skill.SkillCD) return false;
         cdSkill = 0;
         float rot_z = RotTargeting();
-        Transform newElectricOrb = DurationSkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        Transform newElectricOrb = SkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
         newElectricOrb.gameObject.SetActive(true);
 
         return true;

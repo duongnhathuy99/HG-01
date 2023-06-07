@@ -20,7 +20,7 @@ public class FireZoneAttack : SkillAttack
         cdSkill += Time.fixedDeltaTime;
         if (cdSkill < skill.SkillCD) return false;
         cdSkill = 0;
-        Transform fireZone = DurationSkillSpawner.Instance.Spawn(skill.name, transform.parent.position + PosRamdom(), Quaternion.Euler(0, 0, 0));
+        Transform fireZone = SkillSpawner.Instance.Spawn(skill.name, transform.parent.position + PosRamdom(), Quaternion.Euler(0, 0, 0));
         fireZone.gameObject.SetActive(true);
 
         return true;

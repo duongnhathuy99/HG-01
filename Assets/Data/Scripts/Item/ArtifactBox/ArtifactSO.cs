@@ -26,6 +26,7 @@ public enum TypeSkill
     Satellite,
     WaterSpark,
     Thunderstorm,
+    Spitrit,
 }
 public enum TypeAttribute
 {
@@ -34,4 +35,6 @@ public enum TypeAttribute
     size,
     duration,
     bulletNumber,
+    rangeExplosion,
+    speed,
 }

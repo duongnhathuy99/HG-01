@@ -19,8 +19,8 @@ public class Enemy : MonoBehaviour, IHealth
     {
         Undamaged = false;
         Dead = false;
-        health = enemySO.heathMax + enemySO.heathIncrease * (int)(Time.time / enemySO.timeIncrease);
-        damage = enemySO.damage + enemySO.damageIncrease * (int)(Time.time / enemySO.timeIncrease);
+        health = enemySO.heathMax + enemySO.heathIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
+        damage = enemySO.damage + enemySO.damageIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
     }
     
     private void OnTriggerStay(Collider other)

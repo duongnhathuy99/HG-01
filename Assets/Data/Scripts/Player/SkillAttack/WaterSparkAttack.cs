@@ -5,12 +5,7 @@ using UnityEngine;
 public class WaterSparkAttack : SkillAttack
 {
     float bulletCD = 0.2f;
-    protected float RotTargeting()
-    {
-        Vector3 diff = EnemySpawner.Instance.Objects[0].position - transform.parent.position;
-        diff.Normalize();
-        return Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-    }
+   
     public override bool Attack()
     {
         if (skill == null) return false;
@@ -21,8 +16,7 @@ public class WaterSparkAttack : SkillAttack
         if (cdBullet < bulletCD) return false;
         if (EnemySpawner.Instance.Objects.Count <= 0) return false;
 
-        float rot_z = RotTargeting();
-        Transform newWaterSpark = ProjectileSkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, 90));
+        Transform newWaterSpark = SkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, Random.Range(45, 135)));
         newWaterSpark.gameObject.SetActive(true);
 
         countBullet--;

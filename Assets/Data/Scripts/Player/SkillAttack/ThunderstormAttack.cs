@@ -21,7 +21,7 @@ public class ThunderstormAttack: SkillAttack
         if (cdSkill < skill.SkillCD) return false;
         cdSkill = 0;
         Vector3 ranPos = RandomPosEnemy();
-        Transform newThunderstorm = ProjectileSkillSpawner.Instance.Spawn(skill.name, ranPos, Quaternion.Euler(0, 0, 0));
+        Transform newThunderstorm = SkillSpawner.Instance.Spawn(skill.name, ranPos, Quaternion.Euler(0, 0, 0));
         newThunderstorm.gameObject.SetActive(true);
 
         return true;

@@ -18,7 +18,7 @@ public class FireballAttack : SkillAttack
         cdSkill = 0;
         if (EnemySpawner.Instance.Objects.Count <= 0) return false;
         float rot_z = RotTargeting();
-        Transform newFireball = ProjectileSkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
+        Transform newFireball = SkillSpawner.Instance.Spawn(skill.name, transform.parent.position, Quaternion.Euler(0, 0, rot_z));
         newFireball.gameObject.SetActive(true);
 
         PlayerAttack.PlayerCtrl.Animator.SetTrigger("attack");

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThunderstormSkill: ProjectileSkill
+public class ThunderstormSkill: WaterSparkSkill
 {
     protected override void Awake()
     {
@@ -28,6 +28,6 @@ public class ThunderstormSkill: ProjectileSkill
     }
     void FinishAniThunder()
     {
-        ProjectileSkillSpawner.Instance.Despawn(transform);
+        SkillSpawner.Instance.Despawn(transform);
     }
 }

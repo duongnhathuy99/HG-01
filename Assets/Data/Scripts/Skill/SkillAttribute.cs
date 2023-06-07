@@ -9,7 +9,7 @@ public class SkillAttributeInit
     public Sprite spriteSkill;
     public string detailSkill;
     public float damage = 50;
-    public float damagePerLevel = 10;
+    public float damageUpgrade = 10;
     public float skillCD = 1.5f;
     public int bulletNumber = 1;
     public float timeDuration = 0;
@@ -26,6 +26,8 @@ public class SkillAttribute
     public int bulletNumber;
     public float timeDuration;
     public float speed;
+    public float rangeExplosion;
+    public float size;
     public float damageInflicted;
 }
 
@@ -37,4 +39,6 @@ public class SkillAttributeIncrease
     public int bulletNumber;
     public float timeDuration;
     public float speed;
+    public float rangeExplosion;
+    public float size;
 }

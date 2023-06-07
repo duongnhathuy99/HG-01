@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileMove : ProjectileAbstract
+public class ProjectileMove : MonoBehaviour
 {
-     protected float moveSpeed;
-     [SerializeField] protected Vector3 directionFireball = Vector3.right;
-    private void Start()
+    [SerializeField] protected Vector3 directionFireball = Vector3.right;
+    Skill skill;
+    protected virtual void Awake()
     {
-        moveSpeed = ProjectileSkill.Speed;
+        skill = GetComponentInParent<Skill>();
     }
     private void FixedUpdate()
-     {
-         Moving();
-     }
-     private void Moving()
-     {
-         transform.parent.Translate(directionFireball * moveSpeed * Time.fixedDeltaTime);
-     }
+    {
+        Moving();
+    }
+    private void Moving()
+    {
+        transform.parent.Translate(directionFireball * skill.Speed * Time.fixedDeltaTime);
+    }
 
 }

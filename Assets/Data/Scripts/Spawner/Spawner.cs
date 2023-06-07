@@ -6,9 +6,9 @@ public class Spawner : MonoBehaviour
 {
     [Header("Spawner")]
     [SerializeField] protected Transform holder;
-/*
-    [SerializeField] protected int spawnedCount = 0;
-    public int SpawnedCount => spawnedCount;*/
+    /*
+        [SerializeField] protected int spawnedCount = 0;
+        public int SpawnedCount => spawnedCount;*/
 
     [SerializeField] protected List<Transform> prefabs;
     [SerializeField] protected List<Transform> poolObjects;
@@ -97,5 +97,15 @@ public class Spawner : MonoBehaviour
     public virtual void Hold(Transform obj)
     {
         obj.parent = this.holder;
+    }
+    public List<Transform> GetListObjectByName(string objbName)
+    {
+        List<Transform> listObject = new List<Transform>();
+        foreach (Transform obj in objects)
+        {
+            if (obj.name == objbName) 
+                listObject.Add(obj);
+        }
+        return listObject;
     }
 }
