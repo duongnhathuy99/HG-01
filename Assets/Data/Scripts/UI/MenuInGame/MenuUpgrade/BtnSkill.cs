@@ -45,5 +45,6 @@ public class BtnSkill : MonoBehaviour
             skill.UpgradeSkill();
         Time.timeScale = 1;
         skillsUpgrade.gameObject.SetActive(false);
+        player.AddExp(0);
     }
 }

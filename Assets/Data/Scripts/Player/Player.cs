@@ -9,8 +9,8 @@ public class Player : MonoBehaviour, IHealth
     public int Health => health;
     [SerializeField] protected int exp = 0;
     public int Exp => exp;
-    [SerializeField] protected int lever = 0;
-    public int Level => lever;
+    [SerializeField] protected int level = 0;
+    public int Level => level;
     public List<Skill> skills;
     public List<ArtifactSO> artifacts;
     PlayerSO playerSO;
@@ -48,20 +48,20 @@ public class Player : MonoBehaviour, IHealth
     }
     public void AddExp(int amount)
     {
-        if (lever == playerSO.listLever.Count) return;
+        if (level == playerSO.listLever.Count) return;
         exp += amount;
-        playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[lever]);
-        if (exp < playerSO.listLever[lever]) return;
+        playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[level]);
+        if (exp < playerSO.listLever[level]) return;
         LevelUp();
     }
     protected void LevelUp()
     {
-        exp -= playerSO.listLever[lever];
-        playerCtrl.ExpBar.ExpChange(exp, playerSO.listLever[lever]);
-        lever++;
+        level++;
+        TextLevel.Instance.LevelChange(level + 1);
         playerCtrl.MenuUpgrade.GetComponent<MenuSkillUpgrade>().ShuffleSkills();
         playerCtrl.MenuUpgrade.gameObject.SetActive(true);
         Time.timeScale = 0;
+        exp -= playerSO.listLever[level];
     }
     public void GetSkill(Skill skill)
     {
