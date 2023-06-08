@@ -35,7 +35,7 @@ public class SpawnEnemyAtPoint : MonoBehaviour
         Vector3 pos = /*ramPoint.position*/SpawnPosElip() + player.position;
         SpawnPosElip();
         Quaternion rot = transform.rotation;
-        Transform prefab = EnemySpawner.Instance.RandomPrefab();
+        Transform prefab = EnemySpawner.Instance.RamdomPrefabByRatio();
         Transform enemyRamdom = EnemySpawner.Instance.Spawn(prefab, pos, rot);
         enemyRamdom.gameObject.SetActive(true);
     }
@@ -73,9 +73,9 @@ public class SpawnEnemyAtPoint : MonoBehaviour
         {
             timeLine++;
             if(ramdomDelay > spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn)
-            ramdomDelay = spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn;
+                ramdomDelay = spawnEnemySO.TimeIncreaseList[timeLine].timeSpawn;
             if(enemyLimit < spawnEnemySO.TimeIncreaseList[timeLine].enemyLimit)
-            enemyLimit = spawnEnemySO.TimeIncreaseList[timeLine].enemyLimit;
+                enemyLimit = spawnEnemySO.TimeIncreaseList[timeLine].enemyLimit;
         }
     }
 }

@@ -15,24 +15,29 @@ MonoBehaviour:
   attributeInit:
     nameSkill: Thunderstorm
     spriteSkill: {fileID: 864113174, guid: a79040a712e2af64ca2251a74165033d, type: 3}
-    detailSkill: 
+    detailSkill: "Tri\u1EC7u h\u1ED3i s\u1EA5m s\xE9t g\xE2y s\xE1t th\u01B0\u01A1ng
+      t\u1EA1i khu v\u1EF1c ng\u1EABu nhi\xEAn"
     damage: 80
-    damagePerLevel: 20
+    damageUpgrade: 10
     skillCD: 5
     bulletNumber: 1
     timeDuration: 0
     speed: 0
   attribute:
-    level: 0
-    damage: 80
+    level: 3
+    damage: 100
     skillCD: 5
-    bulletNumber: 1
+    bulletNumber: 3
     timeDuration: 0
     speed: 0
-    damageInflicted: 0
+    rangeExplosion: 1
+    size: 1
+    damageInflicted: 4060
   attributeIncrease:
     damage: 0
     skillCD: 0
     bulletNumber: 0
     timeDuration: 0
     speed: 0
+    rangeExplosion: 0
+    size: 0

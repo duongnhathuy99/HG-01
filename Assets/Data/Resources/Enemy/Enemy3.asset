@@ -10,16 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc444ad3c9a135c48b3956a61f58512f, type: 3}
-  m_Name: Enemy0
+  m_Name: Enemy3
   m_EditorClassIdentifier: 
-  damage: 2
-  heathMax: 100
-  moveSpeed: 1.7
+  damage: 10
+  heathMax: 600
+  moveSpeed: 1.5
   timeIncrease: 60
   damageIncrease: 0
-  heathIncrease: 50
-  spawnRate: 20
+  heathIncrease: 300
+  spawnRate: 3
   spawnRateIncrease: 1
   dropList:
-  - itemType: 1
-    dropRate: 80
+  - itemType: 3
+    dropRate: 50
+  - itemType: 4
+    dropRate: 10

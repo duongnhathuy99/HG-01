@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   heathMax: 50
-  moveSpeed: 2.5
+  moveSpeed: 2.2
   timeIncrease: 60
   damageIncrease: 0
   heathIncrease: 15
+  spawnRate: 15
+  spawnRateIncrease: 1
   dropList:
   - itemType: 2
     dropRate: 50
+  - itemType: 4
+    dropRate: 1

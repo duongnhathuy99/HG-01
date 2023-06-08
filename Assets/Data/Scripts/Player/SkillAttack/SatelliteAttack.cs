@@ -19,12 +19,6 @@ public class SatelliteAttack : SkillAttack
     }
     protected void ArrangeSatellite()
     {
-        /*float cornerAngle = 360 / FollowSkillSpawner.Instance.Objects.Count * Mathf.Deg2Rad;
-
-        for (int i = 0; i < FollowSkillSpawner.Instance.Objects.Count; i++)
-        {
-            FollowSkillSpawner.Instance.Objects[i].localPosition = new Vector3(Mathf.Cos(cornerAngle * i) * radius, Mathf.Sin(cornerAngle * i) * radius, 0);
-        }*/
         float cornerAngle = 360 / FollowSkillSpawner.Instance.GetListObjectByName(skill.name).Count * Mathf.Deg2Rad;
 
         for (int i = 0; i < FollowSkillSpawner.Instance.GetListObjectByName(skill.name).Count; i++)

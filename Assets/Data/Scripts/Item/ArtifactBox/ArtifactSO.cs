@@ -26,7 +26,7 @@ public enum TypeSkill
     Satellite,
     WaterSpark,
     Thunderstorm,
-    Spitrit,
+    Spirit,
 }
 public enum TypeAttribute
 {

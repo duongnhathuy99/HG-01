@@ -15,9 +15,10 @@ MonoBehaviour:
   attributeInit:
     nameSkill: ElectricOrb
     spriteSkill: {fileID: -1844566411, guid: db8a3c817de5c4e4e8fc79d0b811a678, type: 3}
-    detailSkill: 
-    damage: 15
-    damageUpgrade: 10
+    detailSkill: "B\u1EAFn ra 1 qu\u1EA3 c\u1EA7u \u0111i\u1EC7n g\xE2y s\xE1t th\u01B0\u01A1ng
+      li\xEAn t\u1EE5c"
+    damage: 25
+    damageUpgrade: 15
     skillCD: 3
     bulletNumber: 1
     timeDuration: 4

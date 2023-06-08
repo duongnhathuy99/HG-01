@@ -11,5 +11,7 @@ public class EnemySO : ScriptableObject
     public float timeIncrease = 0;
     public int damageIncrease = 0;
     public int heathIncrease = 0;
+    public int spawnRate = 0;
+    public int spawnRateIncrease = 0;
     public List<ItemDropRate> dropList;
 }

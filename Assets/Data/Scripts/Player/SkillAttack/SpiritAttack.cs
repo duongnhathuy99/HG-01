@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpitritAttack : SkillAttack
+public class SpiritAttack : SkillAttack
 {
     float x_distance = 0.25f;
     float y_distance = 0.9f;
@@ -12,8 +12,8 @@ public class SpitritAttack : SkillAttack
         if (FollowSkillSpawner.Instance.GetListObjectByName(skill.name).Count < skill.BulletNumber)
         {
             Vector3 newPos = transform.parent.position;
-            Transform newSatellite = FollowSkillSpawner.Instance.Spawn(skill.name,  Vector3.zero, Quaternion.Euler(0, 0, 0));
-            newSatellite.gameObject.SetActive(true);
+            Transform newSpirit = FollowSkillSpawner.Instance.Spawn(skill.name,  Vector3.zero, Quaternion.Euler(0, 0, 0));
+            newSpirit.gameObject.SetActive(true);
             ArrangeSatellite();
         }
         return true;

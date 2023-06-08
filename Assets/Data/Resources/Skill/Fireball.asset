@@ -15,7 +15,8 @@ MonoBehaviour:
   attributeInit:
     nameSkill: Fireball
     spriteSkill: {fileID: 305372579, guid: fd85ccf71ec9ef14db0c023590d23712, type: 3}
-    detailSkill: 
+    detailSkill: "B\u1EAFn ra 1 qu\u1EA3 c\u1EA7u l\u1EEDa ph\xE1t n\u1ED5 khi va
+      ch\u1EA1m"
     damage: 50
     damageUpgrade: 10
     skillCD: 1.5
@@ -31,12 +32,12 @@ MonoBehaviour:
     speed: 5
     rangeExplosion: 1
     size: 1
-    damageInflicted: 900
+    damageInflicted: 10920
   attributeIncrease:
     damage: 0
     skillCD: 0
     bulletNumber: 0
     timeDuration: 0
-    speed: 200
-    rangeExplosion: 0
+    speed: 0
+    rangeExplosion: 20
     size: 0

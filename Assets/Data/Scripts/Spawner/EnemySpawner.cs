@@ -21,4 +21,25 @@ public class EnemySpawner : Spawner
             _instance = this;
         }
     }
+    public Transform RamdomPrefabByRatio()
+    {
+        int maxExclusive = 1;
+        foreach (Transform trans in prefabs)
+        {
+            EnemyCtrl enemy = trans.GetComponent<EnemyCtrl>();
+            maxExclusive += enemy.SpawnRate;
+        }
+        int rand = Random.Range(1, maxExclusive);
+        foreach (Transform trans in prefabs)
+        {
+            EnemyCtrl enemy = trans.GetComponent<EnemyCtrl>();
+            
+            if (enemy.SpawnRate >= rand)
+                return enemy.transform;
+            else
+                rand -= enemy.SpawnRate;
+        }
+        Debug.Log("spawn enemy null");
+        return null;
+    }
 }

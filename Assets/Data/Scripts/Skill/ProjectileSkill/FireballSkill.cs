@@ -31,7 +31,7 @@ public class FireballSkill : Skill
     public override void UpgradeSkill()
     {
         base.UpgradeSkill();
-        skillSO.attribute.bulletNumber++;
+        skillSO.attribute.rangeExplosion += 0.2f ;
     }
     void StartAniExplosion()
     {

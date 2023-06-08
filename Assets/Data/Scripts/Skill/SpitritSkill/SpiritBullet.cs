@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpitritBullet : DurationSkill
+public class SpiritBullet : DurationSkill
 {
     private void OnTriggerEnter(Collider other)
     {

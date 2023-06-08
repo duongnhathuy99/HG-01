@@ -15,7 +15,7 @@ MonoBehaviour:
   attributeInit:
     nameSkill: Satellite
     spriteSkill: {fileID: -754601303, guid: 5ca854c1d53b69d46949c17165dab993, type: 3}
-    detailSkill: 
+    detailSkill: "Tri\u1EC7u h\u1ED3i satellite xoay xung quanh ng\u01B0\u1EDDi ch\u01A1i"
     damage: 30
     damageUpgrade: 10
     skillCD: 0

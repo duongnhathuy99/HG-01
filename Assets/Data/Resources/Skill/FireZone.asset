@@ -15,9 +15,10 @@ MonoBehaviour:
   attributeInit:
     nameSkill: FireZone
     spriteSkill: {fileID: -616388110, guid: 9bf4751e733e82e43b060288c0760698, type: 3}
-    detailSkill: 
-    damage: 8
-    damagePerLevel: 5
+    detailSkill: "T\u1EA1o ra m\u1ED9t khu v\u1EF1c l\u1EEDa thi\xEAu \u0111\u1ED1t
+      li\xEAn t\u1EE5c k\u1EBB th\xF9"
+    damage: 15
+    damageUpgrade: 10
     skillCD: 3.4
     bulletNumber: 1
     timeDuration: 10
@@ -29,10 +30,14 @@ MonoBehaviour:
     bulletNumber: 1
     timeDuration: 10
     speed: 0
-    damageInflicted: 3520
+    rangeExplosion: 1
+    size: 1
+    damageInflicted: 1336
   attributeIncrease:
     damage: 0
-    skillCD: 50
+    skillCD: 0
     bulletNumber: 0
     timeDuration: 0
     speed: 0
+    rangeExplosion: 0
+    size: 0

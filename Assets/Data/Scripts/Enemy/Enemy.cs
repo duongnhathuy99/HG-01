@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour, IHealth
     {
         Undamaged = false;
         Dead = false;
+        Debug.Log(enemySO);
         health = enemySO.heathMax + enemySO.heathIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
         damage = enemySO.damage + enemySO.damageIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
     }
