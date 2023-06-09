@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 7d2e92084c0a4a84ca55f7ce1ce7dc98
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 641
+        width: 125
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee46575189df9c94bb8a674a43b642e0
+      internalID: -1482429027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_7
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 128
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f88661861e8047a1c7980823607a3
+      internalID: -2088387638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 641
+        width: 134
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894afb666a527ef49883e56cae493e4b
+      internalID: 92011433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 641
+        width: 128
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10889bdd7eff96344b731daf69dc97c3
+      internalID: -1256459960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 641
+        width: 123
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7709e6abaf008a419f9631061dee737
+      internalID: 197924366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 641
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7725de509f3e85a4aba4f6324293ee52
+      internalID: -545521260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 498
+        width: 159
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc5b2abbdaf3af40911db5e542c8b6d
+      internalID: 1271931601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 603
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaf8a3df9e50be49b4263df2cce6291
+      internalID: 523919121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 33
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f8f46cdcde9924bb0896e25f101a49
+      internalID: -1910684911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_66
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 30
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5af2962b58cd54b9b33cdc7a74e954
+      internalID: -175937465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 19
+        width: 138
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d4506d519d58342a50efd329cdf469
+      internalID: -923197466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Master Muscle Stone_70
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 19
+        width: 147
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e639806e24ea91b45a1c36bed3116d5a
+      internalID: -341620400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - MapleStory - Master Muscle Stone_0: 1891973322
+      PC Computer - MapleStory - Master Muscle Stone_1: -749197645
+      PC Computer - MapleStory - Master Muscle Stone_10: 197924366
+      PC Computer - MapleStory - Master Muscle Stone_11: -545521260
+      PC Computer - MapleStory - Master Muscle Stone_12: 1271931601
+      PC Computer - MapleStory - Master Muscle Stone_13: 523919121
+      PC Computer - MapleStory - Master Muscle Stone_14: -2069174193
+      PC Computer - MapleStory - Master Muscle Stone_15: -445356801
+      PC Computer - MapleStory - Master Muscle Stone_16: -1092307540
+      PC Computer - MapleStory - Master Muscle Stone_17: 770501887
+      PC Computer - MapleStory - Master Muscle Stone_18: 1851306468
+      PC Computer - MapleStory - Master Muscle Stone_19: -660207585
+      PC Computer - MapleStory - Master Muscle Stone_2: -1106992010
+      PC Computer - MapleStory - Master Muscle Stone_20: -1167596716
+      PC Computer - MapleStory - Master Muscle Stone_21: 826719077
+      PC Computer - MapleStory - Master Muscle Stone_22: 1779537733
+      PC Computer - MapleStory - Master Muscle Stone_23: 1548246829
+      PC Computer - MapleStory - Master Muscle Stone_24: -452690812
+      PC Computer - MapleStory - Master Muscle Stone_25: -774765671
+      PC Computer - MapleStory - Master Muscle Stone_26: -844168403
+      PC Computer - MapleStory - Master Muscle Stone_27: 1099680632
+      PC Computer - MapleStory - Master Muscle Stone_28: 1976990372
+      PC Computer - MapleStory - Master Muscle Stone_29: 1526639994
+      PC Computer - MapleStory - Master Muscle Stone_3: -75337379
+      PC Computer - MapleStory - Master Muscle Stone_30: -545445310
+      PC Computer - MapleStory - Master Muscle Stone_31: 666967776
+      PC Computer - MapleStory - Master Muscle Stone_32: -487515604
+      PC Computer - MapleStory - Master Muscle Stone_33: -867290455
+      PC Computer - MapleStory - Master Muscle Stone_34: 2012726701
+      PC Computer - MapleStory - Master Muscle Stone_35: -518136007
+      PC Computer - MapleStory - Master Muscle Stone_36: -1915002963
+      PC Computer - MapleStory - Master Muscle Stone_37: 872193387
+      PC Computer - MapleStory - Master Muscle Stone_38: -614246114
+      PC Computer - MapleStory - Master Muscle Stone_39: 892310804
+      PC Computer - MapleStory - Master Muscle Stone_4: -924422564
+      PC Computer - MapleStory - Master Muscle Stone_40: 1197181454
+      PC Computer - MapleStory - Master Muscle Stone_41: -60010958
+      PC Computer - MapleStory - Master Muscle Stone_42: 630298295
+      PC Computer - MapleStory - Master Muscle Stone_43: 2091568315
+      PC Computer - MapleStory - Master Muscle Stone_44: -26172352
+      PC Computer - MapleStory - Master Muscle Stone_45: 630992642
+      PC Computer - MapleStory - Master Muscle Stone_46: 736549613
+      PC Computer - MapleStory - Master Muscle Stone_47: -939237313
+      PC Computer - MapleStory - Master Muscle Stone_48: -1735704749
+      PC Computer - MapleStory - Master Muscle Stone_49: -286988741
+      PC Computer - MapleStory - Master Muscle Stone_5: -1161013093
+      PC Computer - MapleStory - Master Muscle Stone_50: -2112457549
+      PC Computer - MapleStory - Master Muscle Stone_51: -858506836
+      PC Computer - MapleStory - Master Muscle Stone_52: 927648441
+      PC Computer - MapleStory - Master Muscle Stone_53: -58927517
+      PC Computer - MapleStory - Master Muscle Stone_54: 317114675
+      PC Computer - MapleStory - Master Muscle Stone_55: -765912168
+      PC Computer - MapleStory - Master Muscle Stone_56: -2134206241
+      PC Computer - MapleStory - Master Muscle Stone_57: 1254481340
+      PC Computer - MapleStory - Master Muscle Stone_58: 445485689
+      PC Computer - MapleStory - Master Muscle Stone_59: -1243734173
+      PC Computer - MapleStory - Master Muscle Stone_6: -1482429027
+      PC Computer - MapleStory - Master Muscle Stone_60: -810058707
+      PC Computer - MapleStory - Master Muscle Stone_61: 79709639
+      PC Computer - MapleStory - Master Muscle Stone_62: -1661223374
+      PC Computer - MapleStory - Master Muscle Stone_63: -658599859
+      PC Computer - MapleStory - Master Muscle Stone_64: -1910684911
+      PC Computer - MapleStory - Master Muscle Stone_65: -1992227152
+      PC Computer - MapleStory - Master Muscle Stone_66: -175937465
+      PC Computer - MapleStory - Master Muscle Stone_67: -923197466
+      PC Computer - MapleStory - Master Muscle Stone_68: -1251182967
+      PC Computer - MapleStory - Master Muscle Stone_69: 1860428234
+      PC Computer - MapleStory - Master Muscle Stone_7: -2088387638
+      PC Computer - MapleStory - Master Muscle Stone_70: -341620400
+      PC Computer - MapleStory - Master Muscle Stone_71: -614846996
+      PC Computer - MapleStory - Master Muscle Stone_72: 733367587
+      PC Computer - MapleStory - Master Muscle Stone_73: 507021378
+      PC Computer - MapleStory - Master Muscle Stone_74: 750605251
+      PC Computer - MapleStory - Master Muscle Stone_75: -874244660
+      PC Computer - MapleStory - Master Muscle Stone_76: -1117447601
+      PC Computer - MapleStory - Master Muscle Stone_77: -872058472
+      PC Computer - MapleStory - Master Muscle Stone_78: -126252208
+      PC Computer - MapleStory - Master Muscle Stone_8: 92011433
+      PC Computer - MapleStory - Master Muscle Stone_9: -1256459960
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

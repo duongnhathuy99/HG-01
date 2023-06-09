@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: d4f9daca636566746b10312ee8d4f1a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 483
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5460e8feb64ef8d40aee9c361433d494
+      internalID: 1086877851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 483
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb23e3ee8e28f4f8341c0631abcac7
+      internalID: 922850348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_6
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 483
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc05536ddf004294083e9066c81d9b31
+      internalID: -1154952635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 483
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe432876cdd084d408b2d9311269ce10
+      internalID: -2127164298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 372
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c481bb9895acf4ab73012085413458
+      internalID: -897061906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd822804044f8bf4789f6ded942e3ab6
+      internalID: 1424909430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 82
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3f066d99f0ee4e88047c7a618ceca
+      internalID: 1998390698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f874ceb4109511f49a8fdcb373e743df
+      internalID: -1021075104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd5c439b48bb324c8e5fbc4f540adc9
+      internalID: -1763701058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_33
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 3
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db37c9523a90b64ead839be4874a6b9
+      internalID: -10123756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Skeleton Soldier_34
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c5d6df8ddf24a428dfdd8e050abc94
+      internalID: -1645836764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - MapleStory - Skeleton Soldier_0: -2108219532
+      PC Computer - MapleStory - Skeleton Soldier_1: -2047696103
+      PC Computer - MapleStory - Skeleton Soldier_10: -1591705543
+      PC Computer - MapleStory - Skeleton Soldier_11: 1578428179
+      PC Computer - MapleStory - Skeleton Soldier_12: 1875399909
+      PC Computer - MapleStory - Skeleton Soldier_13: 1088110184
+      PC Computer - MapleStory - Skeleton Soldier_14: 904699059
+      PC Computer - MapleStory - Skeleton Soldier_15: -1472628313
+      PC Computer - MapleStory - Skeleton Soldier_16: 1142411013
+      PC Computer - MapleStory - Skeleton Soldier_17: -642778212
+      PC Computer - MapleStory - Skeleton Soldier_18: -265406396
+      PC Computer - MapleStory - Skeleton Soldier_19: -1079581174
+      PC Computer - MapleStory - Skeleton Soldier_2: 248371860
+      PC Computer - MapleStory - Skeleton Soldier_20: -76561484
+      PC Computer - MapleStory - Skeleton Soldier_21: -1472982566
+      PC Computer - MapleStory - Skeleton Soldier_22: -2137853340
+      PC Computer - MapleStory - Skeleton Soldier_23: 685051300
+      PC Computer - MapleStory - Skeleton Soldier_24: 1419428068
+      PC Computer - MapleStory - Skeleton Soldier_25: -2087464457
+      PC Computer - MapleStory - Skeleton Soldier_26: 184002823
+      PC Computer - MapleStory - Skeleton Soldier_27: -1915297030
+      PC Computer - MapleStory - Skeleton Soldier_28: 1707183515
+      PC Computer - MapleStory - Skeleton Soldier_29: 1424909430
+      PC Computer - MapleStory - Skeleton Soldier_3: -799893962
+      PC Computer - MapleStory - Skeleton Soldier_30: 1998390698
+      PC Computer - MapleStory - Skeleton Soldier_31: -1021075104
+      PC Computer - MapleStory - Skeleton Soldier_32: -1763701058
+      PC Computer - MapleStory - Skeleton Soldier_33: -10123756
+      PC Computer - MapleStory - Skeleton Soldier_34: -1645836764
+      PC Computer - MapleStory - Skeleton Soldier_4: 1086877851
+      PC Computer - MapleStory - Skeleton Soldier_5: 922850348
+      PC Computer - MapleStory - Skeleton Soldier_6: -1154952635
+      PC Computer - MapleStory - Skeleton Soldier_7: -2127164298
+      PC Computer - MapleStory - Skeleton Soldier_8: -897061906
+      PC Computer - MapleStory - Skeleton Soldier_9: 1851403432
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

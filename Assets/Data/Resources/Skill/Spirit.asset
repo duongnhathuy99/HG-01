@@ -23,18 +23,18 @@ MonoBehaviour:
     timeDuration: 0
     speed: 7
   attribute:
-    level: 0
-    damage: 30
+    level: 4
+    damage: 60
     skillCD: 2
-    bulletNumber: 1
+    bulletNumber: 4
     timeDuration: 0
     speed: 7
     rangeExplosion: 1
     size: 1
-    damageInflicted: 0
+    damageInflicted: 3710
   attributeIncrease:
     damage: 0
-    skillCD: 15
+    skillCD: 0
     bulletNumber: 0
     timeDuration: 0
     speed: 0

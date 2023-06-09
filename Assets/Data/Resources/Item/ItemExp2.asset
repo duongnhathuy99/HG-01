@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf5363220f50d98498b7ba4d33eec8c8, type: 3}
   m_Name: ItemExp2
   m_EditorClassIdentifier: 
-  itemType: 2
-  exp: 50
+  exp: 150

@@ -56,12 +56,12 @@ public class Player : MonoBehaviour, IHealth
     }
     protected void LevelUp()
     {
+        exp -= playerSO.listLever[level];
         level++;
         TextLevel.Instance.LevelChange(level + 1);
         playerCtrl.MenuUpgrade.GetComponent<MenuSkillUpgrade>().ShuffleSkills();
         playerCtrl.MenuUpgrade.gameObject.SetActive(true);
         Time.timeScale = 0;
-        exp -= playerSO.listLever[level];
     }
     public void GetSkill(Skill skill)
     {

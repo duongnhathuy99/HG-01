@@ -32,7 +32,7 @@ MonoBehaviour:
     speed: 7
     rangeExplosion: 1
     size: 1
-    damageInflicted: 3840
+    damageInflicted: 3690
   attributeIncrease:
     damage: 0
     skillCD: 0

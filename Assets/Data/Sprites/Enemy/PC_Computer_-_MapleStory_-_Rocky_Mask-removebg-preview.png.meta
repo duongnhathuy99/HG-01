@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 6190a566094dc684fa74d205441cfbc6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 247
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eb060bdb978a9449a7ff457620ea01
+      internalID: 943046192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 247
+        width: 69
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f6778bdf36ee749a555173e59a8b54
+      internalID: -2066167871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 247
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73d8883dc6b494d9ac9009d23e6363
+      internalID: 314600258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 247
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1b3010d05740843a70f942fcc44a62
+      internalID: -1729785635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 247
+        width: 71
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86e0f5232f069b48bcf396dd48b718a
+      internalID: 1610462556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 247
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311eacadc13241c49831ea76d1103cc7
+      internalID: -93441485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 124
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75503e720fc2d2b45a008ce7550db6b5
+      internalID: 415638887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 14
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca4f2c08c2b84343916264169145ccc
+      internalID: 1909200376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_0: -574348863
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_1: 1842457717
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_10: -2066167871
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_11: 314600258
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_12: -1729785635
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_13: 1610462556
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_14: -93441485
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_15: -1758650392
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_16: -1877967570
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_17: 415638887
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_18: -1998101703
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_19: -1089119832
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_2: 18105164
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_20: 653295634
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_21: 1684753667
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_22: -253352300
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_23: -1740025464
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_24: -758428895
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_25: 1251731867
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_26: 2126775596
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_27: 880018860
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_28: 811180417
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_29: 802385622
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_3: -1321037702
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_30: 507381784
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_31: 1423279137
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_32: -477999478
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_33: 1257634755
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_34: -2123131903
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_35: -208695370
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_36: 1909200376
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_4: -244895107
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_5: -480161688
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_6: -413296867
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_7: 1195508830
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_8: 1208876856
+      PC_Computer_-_MapleStory_-_Rocky_Mask-removebg-preview_9: 943046192
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

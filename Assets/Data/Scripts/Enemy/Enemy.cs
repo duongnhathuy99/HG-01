@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour, IHealth
     [SerializeField] protected int damage;
     EnemySO enemySO;
     EnemyCtrl enemyCtrl;
+    
     public bool Dead { get; private set; }
     public bool Undamaged { get; set; }
     private void Awake()
@@ -19,7 +20,6 @@ public class Enemy : MonoBehaviour, IHealth
     {
         Undamaged = false;
         Dead = false;
-        Debug.Log(enemySO);
         health = enemySO.heathMax + enemySO.heathIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
         damage = enemySO.damage + enemySO.damageIncrease * (int)(TextTimer.Instance.TimeGame / enemySO.timeIncrease);
     }
