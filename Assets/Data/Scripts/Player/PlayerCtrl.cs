@@ -14,6 +14,9 @@ public class PlayerCtrl : MonoBehaviour
     [SerializeField] ExpBar expBar;
     public ExpBar ExpBar => expBar;
 
+    [SerializeField] Transform menuGameOver;
+    public Transform MenuGameOver => menuGameOver;
+
     public Player Player { get; private set; }
     public PlayerAttack PlayerAttack { get; private set; }
     public PlayerMovement PlayerMovement { get; private set; }

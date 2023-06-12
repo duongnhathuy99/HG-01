@@ -39,6 +39,8 @@ public class Player : MonoBehaviour, IHealth
         health -= (int)amount;
         if (health > 0) return true;
         Debug.Log("Game over");
+        playerCtrl.MenuGameOver.gameObject.SetActive(true);
+        Time.timeScale = 0;
         return true;
     }
     public void AddHealth(int amount)

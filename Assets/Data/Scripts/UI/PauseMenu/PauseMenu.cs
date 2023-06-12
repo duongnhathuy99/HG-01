@@ -13,11 +13,11 @@ public class PauseMenu: MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    public void QuitGame()
+    public void LoadSceneSelectLevel()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("SelectLevel");
     }
 }

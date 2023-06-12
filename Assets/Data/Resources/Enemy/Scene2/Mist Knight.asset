@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc444ad3c9a135c48b3956a61f58512f, type: 3}
   m_Name: Mist Knight
   m_EditorClassIdentifier: 
-  damage: 3
+  damage: 7
   heathMax: 150
   moveSpeed: 2
   timeIncrease: 60

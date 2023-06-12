@@ -27,17 +27,17 @@ MonoBehaviour:
     level: 1
     damage: 60
     skillCD: 1.5
-    bulletNumber: 2
+    bulletNumber: 1
     timeDuration: 0
     speed: 5
-    rangeExplosion: 1
+    rangeExplosion: 1.2
     size: 1
-    damageInflicted: 10920
+    damageInflicted: 960
   attributeIncrease:
     damage: 0
     skillCD: 0
     bulletNumber: 0
     timeDuration: 0
     speed: 0
-    rangeExplosion: 20
+    rangeExplosion: 0
     size: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc444ad3c9a135c48b3956a61f58512f, type: 3}
   m_Name: Enemy3
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 7
   heathMax: 600
   moveSpeed: 1.5
   timeIncrease: 60
