@@ -24,4 +24,4 @@ MonoBehaviour:
   - itemType: 3
     dropRate: 50
   - itemType: 4
-    dropRate: 10
+    dropRate: 5

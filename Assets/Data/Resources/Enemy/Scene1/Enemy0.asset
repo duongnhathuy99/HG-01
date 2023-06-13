@@ -19,7 +19,7 @@ MonoBehaviour:
   damageIncrease: 0
   heathIncrease: 50
   spawnRate: 20
-  spawnRateIncrease: 1
+  spawnRateIncrease: 4
   dropList:
   - itemType: 1
     dropRate: 80

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243d81ffb58d3d040bb7b79a575915b9, type: 3}
+  m_Name: Artifact 15
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 891953f4e896858499e3520634482ab8, type: 3}
+  listProperties:
+  - typeSkill: 3
+    typeAttribute: 6
+    value: 40
+  detail: "T\u0103ng t\u1ED1c \u0111\u1ED9 xoay c\u1EE7a Satellite 40%"

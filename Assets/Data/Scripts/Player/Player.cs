@@ -19,6 +19,9 @@ public class Player : MonoBehaviour, IHealth
     {
         playerCtrl = transform.GetComponent<PlayerCtrl>();
         playerSO = transform.GetComponent<PlayerCtrl>().PlayerSO;
+    }
+    private void Start()
+    {
         skills[0].UpgradeSkill();
     }
     private void OnEnable()

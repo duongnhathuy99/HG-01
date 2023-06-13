@@ -37,3 +37,6 @@ MonoBehaviour:
   - timeline: 360
     timeSpawn: 0.2
     enemyLimit: 300
+  - timeline: 600
+    timeSpawn: 0.14
+    enemyLimit: 300
