@@ -1,11 +1,16 @@
 # Wizard Survival 
+Demo: https://huydn99.itch.io/hg-01
 * <h3> Main menu
-![Screenshot 2023-05-29 174317](https://github.com/duongnhathuy99/HG-01/assets/55747198/0e461973-cd6b-4385-93ef-76ca2426f17f)
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/7273de72-92f7-4521-91c0-735fc8659848)
+* <h3> Scene select level
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/fb52242a-03d4-45fd-80cb-6c444bb2a65e)
 * <h3> Scene in game
-![Screenshot 2023-05-29 174755](https://github.com/duongnhathuy99/HG-01/assets/55747198/4b735e4f-dff3-401b-acef-833c3d38de1d)
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/21a2c1b8-7cf2-4ce2-8d3d-1355aeb043ca)
 * <h3> Upgrade menu
-![Screenshot 2023-05-29 174356](https://github.com/duongnhathuy99/HG-01/assets/55747198/93b291af-0065-4bde-9b5c-e68ec776e218)
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/91bd5fa5-516b-463c-ac27-9470f2313aaf)
+* <h3> select artifact
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/7d2e128c-ae97-46a1-93bf-89a3ccb674e2)
 * <h3> Pause Menu 
-![Screenshot 2023-05-29 174730](https://github.com/duongnhathuy99/HG-01/assets/55747198/98f9e382-290d-472e-a1cb-1fa3db190d7c)
+![image](https://github.com/duongnhathuy99/HG-01/assets/55747198/032f93df-4dcb-4b10-afb3-803d1eb8a01b)
 
-Demo: https://www.youtube.com/watch?v=l1R-ZyAHxrw
+
